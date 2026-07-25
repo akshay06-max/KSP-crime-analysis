@@ -1,0 +1,1542 @@
+[
+  {
+    "location_id": "LOC1000",
+    "area": "Jayanagar",
+    "latitude": 12.92609760332996,
+    "longitude": 77.57873255015387,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1001",
+    "area": "Yeshwanthpur",
+    "latitude": 13.030317768567222,
+    "longitude": 77.55336099775569,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1002",
+    "area": "Cubbon Park",
+    "latitude": 12.968428216455955,
+    "longitude": 77.59540600387133,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1003",
+    "area": "Indiranagar",
+    "latitude": 12.98083898890596,
+    "longitude": 77.63291306904135,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1004",
+    "area": "KR Puram",
+    "latitude": 13.00175811227332,
+    "longitude": 77.68828051792653,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1005",
+    "area": "Cubbon Park",
+    "latitude": 12.967717146997773,
+    "longitude": 77.58766009268739,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1006",
+    "area": "KR Puram",
+    "latitude": 13.00388595133179,
+    "longitude": 77.69522204552099,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1007",
+    "area": "Yeshwanthpur",
+    "latitude": 13.019907697767485,
+    "longitude": 77.56016044489463,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1008",
+    "area": "Basavanagudi",
+    "latitude": 12.932243107567029,
+    "longitude": 77.57160843515176,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1009",
+    "area": "Jayanagar",
+    "latitude": 12.927072096195394,
+    "longitude": 77.57480284674527,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1010",
+    "area": "HSR Layout",
+    "latitude": 12.91474746328945,
+    "longitude": 77.6402045384769,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1011",
+    "area": "Yeshwanthpur",
+    "latitude": 13.037114685748897,
+    "longitude": 77.54418630913769,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1012",
+    "area": "Whitefield",
+    "latitude": 12.976474899092796,
+    "longitude": 77.75407079850174,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1013",
+    "area": "HSR Layout",
+    "latitude": 12.918658256307838,
+    "longitude": 77.63900818116197,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1014",
+    "area": "Malleshwaram",
+    "latitude": 13.012401018780933,
+    "longitude": 77.57472039247511,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1015",
+    "area": "Rajajinagar",
+    "latitude": 12.99710232483743,
+    "longitude": 77.56038269402902,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1016",
+    "area": "Jayanagar",
+    "latitude": 12.938243335658122,
+    "longitude": 77.59097186502676,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1017",
+    "area": "Whitefield",
+    "latitude": 12.973390362367205,
+    "longitude": 77.75687322326544,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1018",
+    "area": "KR Puram",
+    "latitude": 13.008331760869932,
+    "longitude": 77.69209445012278,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1019",
+    "area": "Rajajinagar",
+    "latitude": 12.99589508526028,
+    "longitude": 77.54870644536423,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1020",
+    "area": "Indiranagar",
+    "latitude": 12.974033231409596,
+    "longitude": 77.63764498459473,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1021",
+    "area": "Indiranagar",
+    "latitude": 12.966796850881567,
+    "longitude": 77.64070272688437,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1022",
+    "area": "Whitefield",
+    "latitude": 12.973718235528164,
+    "longitude": 77.74929099769149,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1023",
+    "area": "Basavanagudi",
+    "latitude": 12.94775349670668,
+    "longitude": 77.57349194034141,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1024",
+    "area": "Rajajinagar",
+    "latitude": 12.989160705848628,
+    "longitude": 77.54575610533155,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1025",
+    "area": "HSR Layout",
+    "latitude": 12.907572253047448,
+    "longitude": 77.63669973296128,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1026",
+    "area": "Cubbon Park",
+    "latitude": 12.974386333382753,
+    "longitude": 77.58620089462407,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1027",
+    "area": "Yeshwanthpur",
+    "latitude": 13.024947053338835,
+    "longitude": 77.55309398650033,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1028",
+    "area": "Basavanagudi",
+    "latitude": 12.939199206874404,
+    "longitude": 77.576802881865,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1029",
+    "area": "Rajajinagar",
+    "latitude": 12.995867144571921,
+    "longitude": 77.55825583772351,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1030",
+    "area": "HSR Layout",
+    "latitude": 12.910167560264695,
+    "longitude": 77.63631141752437,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1031",
+    "area": "Basavanagudi",
+    "latitude": 12.95150947462476,
+    "longitude": 77.56920164792776,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1032",
+    "area": "Whitefield",
+    "latitude": 12.971196992893566,
+    "longitude": 77.7533637694089,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1033",
+    "area": "Rajajinagar",
+    "latitude": 12.995523675006645,
+    "longitude": 77.54822537151513,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1034",
+    "area": "Whitefield",
+    "latitude": 12.965924120602601,
+    "longitude": 77.75163111170664,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1035",
+    "area": "Rajajinagar",
+    "latitude": 12.985827692797573,
+    "longitude": 77.55238397174426,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1036",
+    "area": "Yeshwanthpur",
+    "latitude": 13.02778793889861,
+    "longitude": 77.55280937596272,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1037",
+    "area": "HSR Layout",
+    "latitude": 12.916888868906524,
+    "longitude": 77.64102635302487,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1038",
+    "area": "KR Puram",
+    "latitude": 13.016002175548687,
+    "longitude": 77.6889846714955,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1039",
+    "area": "Malleshwaram",
+    "latitude": 13.007287422715697,
+    "longitude": 77.57029824958015,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1040",
+    "area": "Malleshwaram",
+    "latitude": 12.994928196737117,
+    "longitude": 77.56421845578441,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1041",
+    "area": "HSR Layout",
+    "latitude": 12.902117297847767,
+    "longitude": 77.63347848831444,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1042",
+    "area": "Basavanagudi",
+    "latitude": 12.93862116511913,
+    "longitude": 77.56589199769165,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1043",
+    "area": "Malleshwaram",
+    "latitude": 12.99996547572552,
+    "longitude": 77.58030369453617,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1044",
+    "area": "Jayanagar",
+    "latitude": 12.929562321901447,
+    "longitude": 77.58776500058244,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1045",
+    "area": "Malleshwaram",
+    "latitude": 13.011758597569685,
+    "longitude": 77.57012895788357,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1046",
+    "area": "KR Puram",
+    "latitude": 12.999530166891818,
+    "longitude": 77.68839620159213,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1047",
+    "area": "HSR Layout",
+    "latitude": 12.911286827711034,
+    "longitude": 77.63554879911422,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1048",
+    "area": "KR Puram",
+    "latitude": 13.016107071803537,
+    "longitude": 77.69363989407863,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1049",
+    "area": "KR Puram",
+    "latitude": 13.002100455590869,
+    "longitude": 77.69946518801044,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1050",
+    "area": "Jayanagar",
+    "latitude": 12.93487781658658,
+    "longitude": 77.57581014480645,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1051",
+    "area": "Indiranagar",
+    "latitude": 12.972523326362975,
+    "longitude": 77.64251856123832,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1052",
+    "area": "Basavanagudi",
+    "latitude": 12.94575221771398,
+    "longitude": 77.56695951244144,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1053",
+    "area": "KR Puram",
+    "latitude": 13.010785581591016,
+    "longitude": 77.68743879195719,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1054",
+    "area": "HSR Layout",
+    "latitude": 12.914149162156335,
+    "longitude": 77.62968845147923,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1055",
+    "area": "Rajajinagar",
+    "latitude": 12.992288155179688,
+    "longitude": 77.56212979162423,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1056",
+    "area": "KR Puram",
+    "latitude": 12.997078373102019,
+    "longitude": 77.69773144616538,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1057",
+    "area": "HSR Layout",
+    "latitude": 12.919787752768558,
+    "longitude": 77.63494380349059,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1058",
+    "area": "Whitefield",
+    "latitude": 12.968872875137777,
+    "longitude": 77.75340972437701,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1059",
+    "area": "Jayanagar",
+    "latitude": 12.938833924248494,
+    "longitude": 77.58669653619508,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1060",
+    "area": "Jayanagar",
+    "latitude": 12.936103147517771,
+    "longitude": 77.57794314740693,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1061",
+    "area": "Whitefield",
+    "latitude": 12.975568630689073,
+    "longitude": 77.75177705844101,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1062",
+    "area": "Malleshwaram",
+    "latitude": 13.012408312859403,
+    "longitude": 77.56176730073798,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1063",
+    "area": "HSR Layout",
+    "latitude": 12.91426153448602,
+    "longitude": 77.63986712868098,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1064",
+    "area": "Whitefield",
+    "latitude": 12.96436987148729,
+    "longitude": 77.7467786323767,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1065",
+    "area": "Indiranagar",
+    "latitude": 12.963242666162733,
+    "longitude": 77.6478354377695,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1066",
+    "area": "Cubbon Park",
+    "latitude": 12.977858370367798,
+    "longitude": 77.58715477611344,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1067",
+    "area": "HSR Layout",
+    "latitude": 12.917968537190813,
+    "longitude": 77.64117146561071,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1068",
+    "area": "Indiranagar",
+    "latitude": 12.96476502980684,
+    "longitude": 77.64434689269673,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1069",
+    "area": "HSR Layout",
+    "latitude": 12.916688717582499,
+    "longitude": 77.62989524984867,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1070",
+    "area": "Whitefield",
+    "latitude": 12.965968387837025,
+    "longitude": 77.74441036871005,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1071",
+    "area": "Yeshwanthpur",
+    "latitude": 13.028405246931124,
+    "longitude": 77.5606670840484,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1072",
+    "area": "KR Puram",
+    "latitude": 13.00329536358891,
+    "longitude": 77.70302644308622,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1073",
+    "area": "KR Puram",
+    "latitude": 13.011716096529293,
+    "longitude": 77.69143144117788,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1074",
+    "area": "Jayanagar",
+    "latitude": 12.933910180210374,
+    "longitude": 77.57734292257894,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1075",
+    "area": "Indiranagar",
+    "latitude": 12.968108157012127,
+    "longitude": 77.64023827727401,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1076",
+    "area": "Malleshwaram",
+    "latitude": 13.011482536679116,
+    "longitude": 77.56776875551677,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1077",
+    "area": "KR Puram",
+    "latitude": 13.009746107139387,
+    "longitude": 77.6883182370856,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1078",
+    "area": "KR Puram",
+    "latitude": 13.00299163774832,
+    "longitude": 77.69453358612112,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1079",
+    "area": "Jayanagar",
+    "latitude": 12.937688567773717,
+    "longitude": 77.57582281527336,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1080",
+    "area": "Rajajinagar",
+    "latitude": 12.996470730361908,
+    "longitude": 77.55167855926067,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1081",
+    "area": "HSR Layout",
+    "latitude": 12.919082338901045,
+    "longitude": 77.6399908149085,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1082",
+    "area": "Rajajinagar",
+    "latitude": 12.98897922975358,
+    "longitude": 77.5504233223609,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1083",
+    "area": "Yeshwanthpur",
+    "latitude": 13.019984515425413,
+    "longitude": 77.54911847856874,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1084",
+    "area": "Cubbon Park",
+    "latitude": 12.97544227233273,
+    "longitude": 77.5851171579058,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1085",
+    "area": "Yeshwanthpur",
+    "latitude": 13.028921188906443,
+    "longitude": 77.5541465539316,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1086",
+    "area": "HSR Layout",
+    "latitude": 12.908370945163593,
+    "longitude": 77.64175591232406,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1087",
+    "area": "Basavanagudi",
+    "latitude": 12.936189396674303,
+    "longitude": 77.56463811883862,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1088",
+    "area": "Jayanagar",
+    "latitude": 12.927438493727626,
+    "longitude": 77.57628950016489,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1089",
+    "area": "Whitefield",
+    "latitude": 12.976246825590797,
+    "longitude": 77.7509094879469,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1090",
+    "area": "KR Puram",
+    "latitude": 13.011336287914222,
+    "longitude": 77.70523214461693,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1091",
+    "area": "Jayanagar",
+    "latitude": 12.921447706479594,
+    "longitude": 77.57686876326785,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1092",
+    "area": "Yeshwanthpur",
+    "latitude": 13.020755219909812,
+    "longitude": 77.55949928967063,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1093",
+    "area": "Whitefield",
+    "latitude": 12.961555814822093,
+    "longitude": 77.75363858520501,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1094",
+    "area": "Yeshwanthpur",
+    "latitude": 13.02984554814233,
+    "longitude": 77.55334811678584,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1095",
+    "area": "Whitefield",
+    "latitude": 12.9623666922149,
+    "longitude": 77.7565810745627,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1096",
+    "area": "Rajajinagar",
+    "latitude": 12.994201141827755,
+    "longitude": 77.55371682830966,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1097",
+    "area": "Cubbon Park",
+    "latitude": 12.971593118156662,
+    "longitude": 77.58711616759403,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1098",
+    "area": "Cubbon Park",
+    "latitude": 12.970380460271269,
+    "longitude": 77.59503320525641,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1099",
+    "area": "Jayanagar",
+    "latitude": 12.928482996670033,
+    "longitude": 77.58610754888328,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1100",
+    "area": "Basavanagudi",
+    "latitude": 12.94214740546095,
+    "longitude": 77.56560098190089,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1101",
+    "area": "Whitefield",
+    "latitude": 12.97507713528324,
+    "longitude": 77.74731874705036,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1102",
+    "area": "Basavanagudi",
+    "latitude": 12.934576220394472,
+    "longitude": 77.58330165630828,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1103",
+    "area": "Yeshwanthpur",
+    "latitude": 13.030525210448076,
+    "longitude": 77.55431011464294,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1104",
+    "area": "Basavanagudi",
+    "latitude": 12.951797960623583,
+    "longitude": 77.57547404283699,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1105",
+    "area": "Jayanagar",
+    "latitude": 12.929059202195779,
+    "longitude": 77.57787783365404,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1106",
+    "area": "Malleshwaram",
+    "latitude": 13.012646747923869,
+    "longitude": 77.56648012791842,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1107",
+    "area": "HSR Layout",
+    "latitude": 12.92069217726783,
+    "longitude": 77.64499231667914,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1108",
+    "area": "Indiranagar",
+    "latitude": 12.96732265443996,
+    "longitude": 77.64244036039355,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1109",
+    "area": "Malleshwaram",
+    "latitude": 13.000105872469748,
+    "longitude": 77.5703480781407,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1110",
+    "area": "HSR Layout",
+    "latitude": 12.905101295509619,
+    "longitude": 77.64654489946331,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1111",
+    "area": "Indiranagar",
+    "latitude": 12.964046013815471,
+    "longitude": 77.65085987776742,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1112",
+    "area": "Whitefield",
+    "latitude": 12.974171963469118,
+    "longitude": 77.74028168391237,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1113",
+    "area": "Rajajinagar",
+    "latitude": 12.99043471043613,
+    "longitude": 77.54803988653929,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1114",
+    "area": "Malleshwaram",
+    "latitude": 12.999400752003126,
+    "longitude": 77.57319250896288,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1115",
+    "area": "HSR Layout",
+    "latitude": 12.908835697370485,
+    "longitude": 77.64724489413562,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1116",
+    "area": "Malleshwaram",
+    "latitude": 13.00516295356882,
+    "longitude": 77.56271883288903,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1117",
+    "area": "Cubbon Park",
+    "latitude": 12.973190577331243,
+    "longitude": 77.58417519824224,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1118",
+    "area": "KR Puram",
+    "latitude": 13.003755397742783,
+    "longitude": 77.69056947258008,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1119",
+    "area": "Jayanagar",
+    "latitude": 12.924569609024735,
+    "longitude": 77.59130416349247,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1120",
+    "area": "Whitefield",
+    "latitude": 12.973865725337298,
+    "longitude": 77.74097352642488,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1121",
+    "area": "Jayanagar",
+    "latitude": 12.929071204128936,
+    "longitude": 77.57930307841016,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1122",
+    "area": "KR Puram",
+    "latitude": 12.999784352156503,
+    "longitude": 77.69452920377014,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1123",
+    "area": "Indiranagar",
+    "latitude": 12.970895736516585,
+    "longitude": 77.63862154987044,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1124",
+    "area": "Cubbon Park",
+    "latitude": 12.981386614858943,
+    "longitude": 77.60118882593551,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1125",
+    "area": "Basavanagudi",
+    "latitude": 12.939614098428624,
+    "longitude": 77.57207860341158,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1126",
+    "area": "HSR Layout",
+    "latitude": 12.915296932246918,
+    "longitude": 77.6340465351527,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1127",
+    "area": "Malleshwaram",
+    "latitude": 13.012644737878254,
+    "longitude": 77.57137888830808,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1128",
+    "area": "Rajajinagar",
+    "latitude": 12.993830387221687,
+    "longitude": 77.55236408307243,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1129",
+    "area": "Indiranagar",
+    "latitude": 12.975857181524342,
+    "longitude": 77.63981146417352,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1130",
+    "area": "Malleshwaram",
+    "latitude": 12.995080384876289,
+    "longitude": 77.58008595588296,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1131",
+    "area": "Whitefield",
+    "latitude": 12.970854028790594,
+    "longitude": 77.74112229878259,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1132",
+    "area": "HSR Layout",
+    "latitude": 12.915288574869273,
+    "longitude": 77.6345074602752,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1133",
+    "area": "Malleshwaram",
+    "latitude": 13.00728621082368,
+    "longitude": 77.56246855382037,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1134",
+    "area": "Basavanagudi",
+    "latitude": 12.939708539919831,
+    "longitude": 77.56751475691792,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1135",
+    "area": "Rajajinagar",
+    "latitude": 12.987665349102727,
+    "longitude": 77.54989834994694,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1136",
+    "area": "HSR Layout",
+    "latitude": 12.909876201395363,
+    "longitude": 77.6444833821125,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1137",
+    "area": "Indiranagar",
+    "latitude": 12.970593525385254,
+    "longitude": 77.63962204679545,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1138",
+    "area": "Cubbon Park",
+    "latitude": 12.983543966211311,
+    "longitude": 77.59170445842963,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1139",
+    "area": "Basavanagudi",
+    "latitude": 12.948529890308658,
+    "longitude": 77.57165870259479,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1140",
+    "area": "Whitefield",
+    "latitude": 12.964640423353416,
+    "longitude": 77.75317325937064,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1141",
+    "area": "Rajajinagar",
+    "latitude": 12.994400624078136,
+    "longitude": 77.55563487212056,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1142",
+    "area": "Malleshwaram",
+    "latitude": 13.002415571030099,
+    "longitude": 77.56872268337355,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1143",
+    "area": "Whitefield",
+    "latitude": 12.975485399950573,
+    "longitude": 77.75042229659601,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1144",
+    "area": "Cubbon Park",
+    "latitude": 12.979842786657818,
+    "longitude": 77.58618708185702,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1145",
+    "area": "Basavanagudi",
+    "latitude": 12.9450095775332,
+    "longitude": 77.57244268904859,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1146",
+    "area": "Rajajinagar",
+    "latitude": 12.994914028564489,
+    "longitude": 77.55248967957611,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1147",
+    "area": "Yeshwanthpur",
+    "latitude": 13.02206089036663,
+    "longitude": 77.55786873083433,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1148",
+    "area": "Yeshwanthpur",
+    "latitude": 13.035710444617127,
+    "longitude": 77.56303683900975,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1149",
+    "area": "Whitefield",
+    "latitude": 12.96529705836547,
+    "longitude": 77.7507521723641,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1150",
+    "area": "Malleshwaram",
+    "latitude": 13.006573434047603,
+    "longitude": 77.56585063249732,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1151",
+    "area": "Yeshwanthpur",
+    "latitude": 13.034508809867406,
+    "longitude": 77.5554014868961,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1152",
+    "area": "Malleshwaram",
+    "latitude": 13.013349724512894,
+    "longitude": 77.57824095180867,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1153",
+    "area": "KR Puram",
+    "latitude": 13.014402501626147,
+    "longitude": 77.68886189568086,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1154",
+    "area": "Jayanagar",
+    "latitude": 12.937366872340975,
+    "longitude": 77.5805551031034,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1155",
+    "area": "Basavanagudi",
+    "latitude": 12.94597183763823,
+    "longitude": 77.56643826174769,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1156",
+    "area": "Yeshwanthpur",
+    "latitude": 13.032388827430491,
+    "longitude": 77.54868287682969,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1157",
+    "area": "Rajajinagar",
+    "latitude": 12.98291656610801,
+    "longitude": 77.55036139851352,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1158",
+    "area": "Yeshwanthpur",
+    "latitude": 13.030606384785475,
+    "longitude": 77.54728233099581,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1159",
+    "area": "Rajajinagar",
+    "latitude": 12.986463340543716,
+    "longitude": 77.55471998123527,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1160",
+    "area": "Basavanagudi",
+    "latitude": 12.932441340247822,
+    "longitude": 77.57102196414083,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1161",
+    "area": "Jayanagar",
+    "latitude": 12.933371413921211,
+    "longitude": 77.58382097931013,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1162",
+    "area": "Whitefield",
+    "latitude": 12.967614630059366,
+    "longitude": 77.75268588494707,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1163",
+    "area": "KR Puram",
+    "latitude": 13.00298580127747,
+    "longitude": 77.70183387018115,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1164",
+    "area": "Yeshwanthpur",
+    "latitude": 13.026986491386888,
+    "longitude": 77.55447708422898,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1165",
+    "area": "HSR Layout",
+    "latitude": 12.918773780182441,
+    "longitude": 77.62914576146075,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1166",
+    "area": "Cubbon Park",
+    "latitude": 12.974625131970026,
+    "longitude": 77.59730575842856,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1167",
+    "area": "Malleshwaram",
+    "latitude": 13.010820644599544,
+    "longitude": 77.57637054959011,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1168",
+    "area": "Indiranagar",
+    "latitude": 12.969265472553921,
+    "longitude": 77.65063715490302,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1169",
+    "area": "Indiranagar",
+    "latitude": 12.970296316840056,
+    "longitude": 77.65042370121775,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1170",
+    "area": "KR Puram",
+    "latitude": 13.01004887856308,
+    "longitude": 77.68961416572881,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1171",
+    "area": "Yeshwanthpur",
+    "latitude": 13.027391334954807,
+    "longitude": 77.55028066575625,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1172",
+    "area": "HSR Layout",
+    "latitude": 12.915823147965702,
+    "longitude": 77.64826800008353,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1173",
+    "area": "Cubbon Park",
+    "latitude": 12.97129705256443,
+    "longitude": 77.59214086497752,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1174",
+    "area": "KR Puram",
+    "latitude": 13.015148571630231,
+    "longitude": 77.68849974361387,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1175",
+    "area": "Rajajinagar",
+    "latitude": 12.99998263451068,
+    "longitude": 77.55136312754478,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1176",
+    "area": "Yeshwanthpur",
+    "latitude": 13.019092988874629,
+    "longitude": 77.55638353097692,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1177",
+    "area": "Jayanagar",
+    "latitude": 12.931673133658595,
+    "longitude": 77.57419059966644,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1178",
+    "area": "Malleshwaram",
+    "latitude": 12.999877551346588,
+    "longitude": 77.56528040376146,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1179",
+    "area": "Jayanagar",
+    "latitude": 12.940630838418784,
+    "longitude": 77.5772742406273,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1180",
+    "area": "Basavanagudi",
+    "latitude": 12.934005147537018,
+    "longitude": 77.56845246716168,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1181",
+    "area": "Yeshwanthpur",
+    "latitude": 13.03561338933183,
+    "longitude": 77.56321117500552,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1182",
+    "area": "KR Puram",
+    "latitude": 13.008039546193713,
+    "longitude": 77.70479200433624,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1183",
+    "area": "Yeshwanthpur",
+    "latitude": 13.029711004922406,
+    "longitude": 77.5627337558711,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1184",
+    "area": "Jayanagar",
+    "latitude": 12.922960692024292,
+    "longitude": 77.57382562314989,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1185",
+    "area": "Yeshwanthpur",
+    "latitude": 13.024774338159133,
+    "longitude": 77.56303324262869,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1186",
+    "area": "HSR Layout",
+    "latitude": 12.90571100953436,
+    "longitude": 77.63269968515178,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1187",
+    "area": "Malleshwaram",
+    "latitude": 13.002052119148916,
+    "longitude": 77.56679098897932,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1188",
+    "area": "Whitefield",
+    "latitude": 12.969218889058991,
+    "longitude": 77.75789754966812,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1189",
+    "area": "Indiranagar",
+    "latitude": 12.976944702842305,
+    "longitude": 77.64454936918268,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1190",
+    "area": "HSR Layout",
+    "latitude": 12.919655544026783,
+    "longitude": 77.64318611398261,
+    "station": "Basavanagudi PS"
+  },
+  {
+    "location_id": "LOC1191",
+    "area": "Jayanagar",
+    "latitude": 12.93534206018361,
+    "longitude": 77.5899468733947,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1192",
+    "area": "HSR Layout",
+    "latitude": 12.912853675189547,
+    "longitude": 77.63091980885652,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1193",
+    "area": "Yeshwanthpur",
+    "latitude": 13.019175650649636,
+    "longitude": 77.56179148427829,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1194",
+    "area": "Whitefield",
+    "latitude": 12.968662212266628,
+    "longitude": 77.75651646663559,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1195",
+    "area": "KR Puram",
+    "latitude": 13.007105394052191,
+    "longitude": 77.69017944885279,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1196",
+    "area": "Jayanagar",
+    "latitude": 12.939160621386822,
+    "longitude": 77.5878926789044,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1197",
+    "area": "Yeshwanthpur",
+    "latitude": 13.021670272290356,
+    "longitude": 77.56188983840624,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1198",
+    "area": "Jayanagar",
+    "latitude": 12.93383174665712,
+    "longitude": 77.58406562467516,
+    "station": "Jayanagar PS"
+  },
+  {
+    "location_id": "LOC1199",
+    "area": "Rajajinagar",
+    "latitude": 12.995043923127746,
+    "longitude": 77.55918621642941,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1200",
+    "area": "Rajajinagar",
+    "latitude": 12.999347475953618,
+    "longitude": 77.54867582223838,
+    "station": "Indiranagar PS"
+  },
+  {
+    "location_id": "LOC1201",
+    "area": "KR Puram",
+    "latitude": 13.008240848680737,
+    "longitude": 77.69079830320823,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1202",
+    "area": "Indiranagar",
+    "latitude": 12.974988692887022,
+    "longitude": 77.63564507023025,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1203",
+    "area": "Basavanagudi",
+    "latitude": 12.939833384396112,
+    "longitude": 77.56976711507636,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1204",
+    "area": "Yeshwanthpur",
+    "latitude": 13.0225876473667,
+    "longitude": 77.55947084542642,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1205",
+    "area": "Rajajinagar",
+    "latitude": 12.995034962833543,
+    "longitude": 77.55523373857343,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1206",
+    "area": "HSR Layout",
+    "latitude": 12.907564045069883,
+    "longitude": 77.63471655583619,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1207",
+    "area": "Jayanagar",
+    "latitude": 12.928131829027997,
+    "longitude": 77.58681080760242,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1208",
+    "area": "KR Puram",
+    "latitude": 13.006287926766555,
+    "longitude": 77.69006254196249,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1209",
+    "area": "Indiranagar",
+    "latitude": 12.965894987722926,
+    "longitude": 77.63645987831227,
+    "station": "Whitefield PS"
+  },
+  {
+    "location_id": "LOC1210",
+    "area": "Jayanagar",
+    "latitude": 12.934232662649304,
+    "longitude": 77.59193760088539,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1211",
+    "area": "Cubbon Park",
+    "latitude": 12.973504293281078,
+    "longitude": 77.59643533064018,
+    "station": "Yeshwanthpur PS"
+  },
+  {
+    "location_id": "LOC1212",
+    "area": "Yeshwanthpur",
+    "latitude": 13.023766187971603,
+    "longitude": 77.55866135890678,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1213",
+    "area": "Whitefield",
+    "latitude": 12.978024535225442,
+    "longitude": 77.74965349701081,
+    "station": "Cubbon Park PS"
+  },
+  {
+    "location_id": "LOC1214",
+    "area": "Whitefield",
+    "latitude": 12.973358578420402,
+    "longitude": 77.75535057436579,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1215",
+    "area": "Cubbon Park",
+    "latitude": 12.983688312692255,
+    "longitude": 77.58439730484955,
+    "station": "Malleshwaram PS"
+  },
+  {
+    "location_id": "LOC1216",
+    "area": "Malleshwaram",
+    "latitude": 13.00238377752919,
+    "longitude": 77.57236069861175,
+    "station": "KR Puram PS"
+  },
+  {
+    "location_id": "LOC1217",
+    "area": "Whitefield",
+    "latitude": 12.96996675480639,
+    "longitude": 77.744137024977,
+    "station": "HSR Layout PS"
+  },
+  {
+    "location_id": "LOC1218",
+    "area": "Jayanagar",
+    "latitude": 12.940088673669086,
+    "longitude": 77.57963967127617,
+    "station": "Rajajinagar PS"
+  },
+  {
+    "location_id": "LOC1219",
+    "area": "KR Puram",
+    "latitude": 12.999214916147324,
+    "longitude": 77.70404388743533,
+    "station": "Indiranagar PS"
+  }
+]

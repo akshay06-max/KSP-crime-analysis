@@ -1,0 +1,1424 @@
+[
+  {
+    "accused_id": "ACC1000",
+    "name": "Ravi Shetty",
+    "age": 25,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9249827706",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC1001",
+    "name": "Gopal Iyer",
+    "age": 19,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9200604502",
+    "prior_convictions": 2
+  },
+  {
+    "accused_id": "ACC1002",
+    "name": "Srinivas Kumar",
+    "age": 35,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9868820204",
+    "prior_convictions": 5
+  },
+  {
+    "accused_id": "ACC1003",
+    "name": "Deepa Patil",
+    "age": 36,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9969119330",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC1004",
+    "name": "Dilip Iyer",
+    "age": 28,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9266944844",
+    "prior_convictions": 2
+  },
+  {
+    "accused_id": "ACC1005",
+    "name": "Sunita Reddy",
+    "age": 30,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9485451171",
+    "prior_convictions": 3
+  },
+  {
+    "accused_id": "ACC1006",
+    "name": "Lakshmi Patil",
+    "age": 35,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9506448196",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC1007",
+    "name": "Geeta Rao",
+    "age": 36,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9856528252",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC1008",
+    "name": "Shivkumar Naidu",
+    "age": 42,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9185675980",
+    "prior_convictions": 2
+  },
+  {
+    "accused_id": "ACC1009",
+    "name": "Anil Shetty",
+    "age": 32,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9274648506",
+    "prior_convictions": 3
+  },
+  {
+    "accused_id": "ACC1010",
+    "name": "Deepa Shetty",
+    "age": 40,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9754049436",
+    "prior_convictions": 2
+  },
+  {
+    "accused_id": "ACC1011",
+    "name": "Manjunath Patil",
+    "age": 30,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9787194506",
+    "prior_convictions": 5
+  },
+  {
+    "accused_id": "ACC1012",
+    "name": "Shivkumar Rao",
+    "age": 44,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9345938494",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC1013",
+    "name": "Shalini Shetty",
+    "age": 20,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9709004943",
+    "prior_convictions": 3
+  },
+  {
+    "accused_id": "ACC2000",
+    "name": "Srinivas Patil",
+    "age": 23,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9217734861",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2001",
+    "name": "Radha Reddy",
+    "age": 36,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9269820594",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2002",
+    "name": "Gopal Rao",
+    "age": 49,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9220117054",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2003",
+    "name": "Praveen Iyer",
+    "age": 31,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9865523129",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2004",
+    "name": "Naveen Naidu",
+    "age": 30,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9250519597",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2005",
+    "name": "Gopal Reddy",
+    "age": 33,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9228727266",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2006",
+    "name": "Praveen Reddy",
+    "age": 24,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9392431670",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2007",
+    "name": "Ravi Rao",
+    "age": 26,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9273497327",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2008",
+    "name": "Anil Gowda",
+    "age": 20,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9491541578",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2009",
+    "name": "Anil Kumar",
+    "age": 29,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9940081098",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2010",
+    "name": "Naveen Kumar",
+    "age": 30,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9452468587",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2011",
+    "name": "Lakshmi Reddy",
+    "age": 45,
+    "gender": "Female",
+    "occupation": "Unemployed",
+    "phone": "9882269302",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2012",
+    "name": "Anil Iyer",
+    "age": 29,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9536019893",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2013",
+    "name": "Shivkumar Reddy",
+    "age": 36,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9200273738",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2014",
+    "name": "Pooja Iyer",
+    "age": 33,
+    "gender": "Female",
+    "occupation": "Student",
+    "phone": "9804436922",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2015",
+    "name": "Pooja Iyer",
+    "age": 53,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9270894498",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2016",
+    "name": "Lakshmi Naidu",
+    "age": 44,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9926561919",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2017",
+    "name": "Manjunath Patil",
+    "age": 25,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9599326438",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2018",
+    "name": "Shalini Naidu",
+    "age": 22,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9209415691",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2019",
+    "name": "Bhavana Naidu",
+    "age": 48,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9581223755",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2020",
+    "name": "Anitha Shetty",
+    "age": 34,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9229553265",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2021",
+    "name": "Lakshmi Gowda",
+    "age": 35,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9158546865",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2022",
+    "name": "Pooja Reddy",
+    "age": 54,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9262915636",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2023",
+    "name": "Sunita Naidu",
+    "age": 34,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9556489494",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2024",
+    "name": "Shalini Shetty",
+    "age": 50,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9570040006",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2025",
+    "name": "Vinay Patil",
+    "age": 35,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9728492896",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2026",
+    "name": "Srinivas Rao",
+    "age": 49,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9916033628",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2027",
+    "name": "Shalini Patil",
+    "age": 48,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9590470737",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2028",
+    "name": "Anil Kumar",
+    "age": 38,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9857232668",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2029",
+    "name": "Bhavana Kumar",
+    "age": 22,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9777703980",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2030",
+    "name": "Vinay Gowda",
+    "age": 32,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9784944881",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2031",
+    "name": "Anitha Naidu",
+    "age": 42,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9214518079",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2032",
+    "name": "Anitha Naidu",
+    "age": 40,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9783563240",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2033",
+    "name": "Radha Reddy",
+    "age": 47,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9251136695",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2034",
+    "name": "Sunita Naidu",
+    "age": 48,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9765233376",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2035",
+    "name": "Anitha Kumar",
+    "age": 41,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9576078963",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2036",
+    "name": "Sunita Naidu",
+    "age": 19,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9944814262",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2037",
+    "name": "Praveen Gowda",
+    "age": 26,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9957397689",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2038",
+    "name": "Dilip Reddy",
+    "age": 48,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9935389432",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2039",
+    "name": "Sunita Patil",
+    "age": 46,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9186748119",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2040",
+    "name": "Gopal Rao",
+    "age": 25,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9479673044",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2041",
+    "name": "Radha Gowda",
+    "age": 41,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9874807770",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2042",
+    "name": "Shalini Shetty",
+    "age": 31,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9470626529",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2043",
+    "name": "Anitha Rao",
+    "age": 25,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9634063428",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2044",
+    "name": "Sunita Rao",
+    "age": 54,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9715683222",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2045",
+    "name": "Radha Gowda",
+    "age": 33,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9257243284",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2046",
+    "name": "Kavya Patil",
+    "age": 22,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9574817290",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2047",
+    "name": "Pooja Kumar",
+    "age": 46,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9445236735",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2048",
+    "name": "Bhavana Gowda",
+    "age": 41,
+    "gender": "Female",
+    "occupation": "Unemployed",
+    "phone": "9403754671",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2049",
+    "name": "Ganesh Reddy",
+    "age": 55,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9475617211",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2050",
+    "name": "Ganesh Shetty",
+    "age": 29,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9466932310",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2051",
+    "name": "Manjunath Gowda",
+    "age": 28,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9146914391",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2052",
+    "name": "Pooja Shetty",
+    "age": 42,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9274008639",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2053",
+    "name": "Pooja Gowda",
+    "age": 45,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9338411494",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2054",
+    "name": "Kavya Gowda",
+    "age": 20,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9990949719",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2055",
+    "name": "Shalini Kumar",
+    "age": 40,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9712745501",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2056",
+    "name": "Lakshmi Rao",
+    "age": 22,
+    "gender": "Female",
+    "occupation": "Unemployed",
+    "phone": "9358906986",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2057",
+    "name": "Radha Gowda",
+    "age": 49,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9494435754",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2058",
+    "name": "Ravi Gowda",
+    "age": 46,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9235538456",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2059",
+    "name": "Shalini Rao",
+    "age": 35,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9221814525",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2060",
+    "name": "Dilip Gowda",
+    "age": 41,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9230311939",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2061",
+    "name": "Bhavana Iyer",
+    "age": 44,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9234568604",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2062",
+    "name": "Praveen Gowda",
+    "age": 28,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9861639583",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2063",
+    "name": "Gopal Gowda",
+    "age": 28,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9705180256",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2064",
+    "name": "Pooja Naidu",
+    "age": 43,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9586989309",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2065",
+    "name": "Ganesh Naidu",
+    "age": 47,
+    "gender": "Male",
+    "occupation": "Auto driver",
+    "phone": "9387195524",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2066",
+    "name": "Ravi Shetty",
+    "age": 49,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9406819991",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2067",
+    "name": "Gopal Iyer",
+    "age": 50,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9148644109",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2068",
+    "name": "Geeta Rao",
+    "age": 50,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9861003571",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2069",
+    "name": "Kavya Iyer",
+    "age": 27,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9133898577",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2070",
+    "name": "Bhavana Iyer",
+    "age": 38,
+    "gender": "Female",
+    "occupation": "Student",
+    "phone": "9593559955",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2071",
+    "name": "Radha Patil",
+    "age": 40,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9409011489",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2072",
+    "name": "Praveen Rao",
+    "age": 36,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9925412179",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2073",
+    "name": "Sunita Iyer",
+    "age": 24,
+    "gender": "Female",
+    "occupation": "Student",
+    "phone": "9250980852",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2074",
+    "name": "Shivkumar Reddy",
+    "age": 47,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9271494637",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2075",
+    "name": "Shalini Patil",
+    "age": 52,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9918040539",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2076",
+    "name": "Srinivas Patil",
+    "age": 37,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9525146690",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2077",
+    "name": "Shivkumar Iyer",
+    "age": 41,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9581613078",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2078",
+    "name": "Praveen Patil",
+    "age": 52,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9671159367",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2079",
+    "name": "Manjunath Shetty",
+    "age": 32,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9720058859",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2080",
+    "name": "Srinivas Iyer",
+    "age": 44,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9517061783",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2081",
+    "name": "Gopal Naidu",
+    "age": 48,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9457517705",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2082",
+    "name": "Pooja Rao",
+    "age": 37,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9486165467",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2083",
+    "name": "Anitha Gowda",
+    "age": 30,
+    "gender": "Female",
+    "occupation": "Unemployed",
+    "phone": "9346980616",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2084",
+    "name": "Suresh Gowda",
+    "age": 18,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9643026584",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2085",
+    "name": "Geeta Reddy",
+    "age": 51,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9346709900",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2086",
+    "name": "Sunita Shetty",
+    "age": 28,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9708485104",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2087",
+    "name": "Geeta Iyer",
+    "age": 38,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9780884334",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2088",
+    "name": "Praveen Gowda",
+    "age": 42,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9894198823",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2089",
+    "name": "Sunita Kumar",
+    "age": 23,
+    "gender": "Female",
+    "occupation": "Unemployed",
+    "phone": "9695088987",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2090",
+    "name": "Geeta Naidu",
+    "age": 47,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9245480775",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2091",
+    "name": "Vinay Rao",
+    "age": 29,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9442671456",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2092",
+    "name": "Dilip Patil",
+    "age": 31,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9956508307",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2093",
+    "name": "Bhavana Kumar",
+    "age": 41,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9217434526",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2094",
+    "name": "Naveen Shetty",
+    "age": 22,
+    "gender": "Male",
+    "occupation": "Auto driver",
+    "phone": "9958459117",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2095",
+    "name": "Radha Patil",
+    "age": 29,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9759797724",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2096",
+    "name": "Bhavana Gowda",
+    "age": 53,
+    "gender": "Female",
+    "occupation": "Student",
+    "phone": "9625749126",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2097",
+    "name": "Shalini Patil",
+    "age": 44,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9624737111",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2098",
+    "name": "Bhavana Rao",
+    "age": 52,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9916048218",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2099",
+    "name": "Naveen Naidu",
+    "age": 55,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9863166250",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2100",
+    "name": "Shivkumar Iyer",
+    "age": 49,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9720005941",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2101",
+    "name": "Dilip Patil",
+    "age": 40,
+    "gender": "Male",
+    "occupation": "Auto driver",
+    "phone": "9954352670",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2102",
+    "name": "Ravi Reddy",
+    "age": 47,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9233398648",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2103",
+    "name": "Gopal Naidu",
+    "age": 51,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9109971784",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2104",
+    "name": "Suresh Gowda",
+    "age": 25,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9477458516",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2105",
+    "name": "Lakshmi Naidu",
+    "age": 49,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9221057584",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2106",
+    "name": "Vinay Reddy",
+    "age": 19,
+    "gender": "Male",
+    "occupation": "Auto driver",
+    "phone": "9114810579",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2107",
+    "name": "Vinay Rao",
+    "age": 51,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9279275105",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2108",
+    "name": "Vinay Gowda",
+    "age": 41,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9373928805",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2109",
+    "name": "Naveen Rao",
+    "age": 18,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9101569849",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2110",
+    "name": "Radha Patil",
+    "age": 23,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9642698931",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2111",
+    "name": "Radha Patil",
+    "age": 35,
+    "gender": "Female",
+    "occupation": "IT employee",
+    "phone": "9180195016",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2112",
+    "name": "Anitha Reddy",
+    "age": 23,
+    "gender": "Female",
+    "occupation": "Student",
+    "phone": "9967150570",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2113",
+    "name": "Lakshmi Reddy",
+    "age": 35,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9247356051",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2114",
+    "name": "Manjunath Reddy",
+    "age": 33,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9386181187",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2115",
+    "name": "Dilip Rao",
+    "age": 54,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9704633564",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2116",
+    "name": "Manjunath Rao",
+    "age": 29,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9163947730",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2117",
+    "name": "Kavya Gowda",
+    "age": 18,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9927672827",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2118",
+    "name": "Shivkumar Reddy",
+    "age": 39,
+    "gender": "Male",
+    "occupation": "Private security guard",
+    "phone": "9112235959",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2119",
+    "name": "Radha Iyer",
+    "age": 24,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9946892378",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2120",
+    "name": "Ganesh Patil",
+    "age": 19,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9801835431",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2121",
+    "name": "Kavya Patil",
+    "age": 20,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9572167680",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2122",
+    "name": "Srinivas Kumar",
+    "age": 42,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9675004218",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2123",
+    "name": "Manjunath Kumar",
+    "age": 45,
+    "gender": "Male",
+    "occupation": "Auto driver",
+    "phone": "9833500385",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2124",
+    "name": "Lakshmi Iyer",
+    "age": 25,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9260677223",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2125",
+    "name": "Geeta Patil",
+    "age": 20,
+    "gender": "Female",
+    "occupation": "Student",
+    "phone": "9395723682",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2126",
+    "name": "Lakshmi Rao",
+    "age": 37,
+    "gender": "Female",
+    "occupation": "Shopkeeper",
+    "phone": "9401019924",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2127",
+    "name": "Shivkumar Kumar",
+    "age": 33,
+    "gender": "Male",
+    "occupation": "Unemployed",
+    "phone": "9624830763",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2128",
+    "name": "Naveen Shetty",
+    "age": 37,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9555059083",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2129",
+    "name": "Anitha Reddy",
+    "age": 48,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9461081823",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2130",
+    "name": "Dilip Kumar",
+    "age": 49,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9378556835",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2131",
+    "name": "Shivkumar Gowda",
+    "age": 36,
+    "gender": "Male",
+    "occupation": "Auto driver",
+    "phone": "9605497119",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2132",
+    "name": "Pooja Reddy",
+    "age": 48,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9781178315",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2133",
+    "name": "Kavya Rao",
+    "age": 29,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9623535947",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2134",
+    "name": "Shalini Patil",
+    "age": 42,
+    "gender": "Female",
+    "occupation": "Daily wage worker",
+    "phone": "9140507249",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2135",
+    "name": "Manjunath Iyer",
+    "age": 19,
+    "gender": "Male",
+    "occupation": "IT employee",
+    "phone": "9340863230",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2136",
+    "name": "Shivkumar Reddy",
+    "age": 19,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9840613153",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2137",
+    "name": "Geeta Gowda",
+    "age": 44,
+    "gender": "Female",
+    "occupation": "Auto driver",
+    "phone": "9649309976",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2138",
+    "name": "Praveen Naidu",
+    "age": 47,
+    "gender": "Male",
+    "occupation": "Shopkeeper",
+    "phone": "9383602087",
+    "prior_convictions": 1
+  },
+  {
+    "accused_id": "ACC2139",
+    "name": "Anitha Iyer",
+    "age": 48,
+    "gender": "Female",
+    "occupation": "Delivery agent",
+    "phone": "9796693603",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2140",
+    "name": "Vinay Patil",
+    "age": 25,
+    "gender": "Male",
+    "occupation": "Delivery agent",
+    "phone": "9573185010",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2141",
+    "name": "Vinay Rao",
+    "age": 42,
+    "gender": "Male",
+    "occupation": "Student",
+    "phone": "9987380851",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2142",
+    "name": "Suresh Iyer",
+    "age": 44,
+    "gender": "Male",
+    "occupation": "Daily wage worker",
+    "phone": "9698214865",
+    "prior_convictions": 0
+  },
+  {
+    "accused_id": "ACC2143",
+    "name": "Radha Patil",
+    "age": 41,
+    "gender": "Female",
+    "occupation": "Private security guard",
+    "phone": "9222431652",
+    "prior_convictions": 0
+  }
+]

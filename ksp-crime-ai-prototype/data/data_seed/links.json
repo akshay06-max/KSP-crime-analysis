@@ -1,0 +1,1322 @@
+[
+  {
+    "fir_id": "FIR/2024/1000",
+    "accused_id": "ACC2000",
+    "victim_id": "VIC1000",
+    "location_id": "LOC1000"
+  },
+  {
+    "fir_id": "FIR/2024/1001",
+    "accused_id": "ACC2001",
+    "victim_id": "VIC1001",
+    "location_id": "LOC1001"
+  },
+  {
+    "fir_id": "FIR/2024/1002",
+    "accused_id": "ACC2002",
+    "victim_id": "VIC1002",
+    "location_id": "LOC1002"
+  },
+  {
+    "fir_id": "FIR/2024/1003",
+    "accused_id": "ACC2003",
+    "victim_id": "VIC1003",
+    "location_id": "LOC1003"
+  },
+  {
+    "fir_id": "FIR/2024/1004",
+    "accused_id": "ACC1011",
+    "victim_id": "VIC1004",
+    "location_id": "LOC1004"
+  },
+  {
+    "fir_id": "FIR/2024/1005",
+    "accused_id": "ACC1007",
+    "victim_id": "VIC1005",
+    "location_id": "LOC1005"
+  },
+  {
+    "fir_id": "FIR/2024/1006",
+    "accused_id": "ACC2004",
+    "victim_id": "VIC1006",
+    "location_id": "LOC1006"
+  },
+  {
+    "fir_id": "FIR/2024/1007",
+    "accused_id": "ACC1007",
+    "victim_id": "VIC1007",
+    "location_id": "LOC1007"
+  },
+  {
+    "fir_id": "FIR/2024/1008",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1008",
+    "location_id": "LOC1008"
+  },
+  {
+    "fir_id": "FIR/2024/1009",
+    "accused_id": "ACC2005",
+    "victim_id": "VIC1009",
+    "location_id": "LOC1009"
+  },
+  {
+    "fir_id": "FIR/2024/1010",
+    "accused_id": "ACC1006",
+    "victim_id": "VIC1010",
+    "location_id": "LOC1010"
+  },
+  {
+    "fir_id": "FIR/2024/1011",
+    "accused_id": "ACC1005",
+    "victim_id": "VIC1011",
+    "location_id": "LOC1011"
+  },
+  {
+    "fir_id": "FIR/2024/1012",
+    "accused_id": "ACC2006",
+    "victim_id": "VIC1012",
+    "location_id": "LOC1012"
+  },
+  {
+    "fir_id": "FIR/2024/1013",
+    "accused_id": "ACC2007",
+    "victim_id": "VIC1013",
+    "location_id": "LOC1013"
+  },
+  {
+    "fir_id": "FIR/2024/1014",
+    "accused_id": "ACC2008",
+    "victim_id": "VIC1014",
+    "location_id": "LOC1014"
+  },
+  {
+    "fir_id": "FIR/2024/1015",
+    "accused_id": "ACC2009",
+    "victim_id": "VIC1015",
+    "location_id": "LOC1015"
+  },
+  {
+    "fir_id": "FIR/2024/1016",
+    "accused_id": "ACC2010",
+    "victim_id": "VIC1016",
+    "location_id": "LOC1016"
+  },
+  {
+    "fir_id": "FIR/2024/1017",
+    "accused_id": "ACC2011",
+    "victim_id": "VIC1017",
+    "location_id": "LOC1017"
+  },
+  {
+    "fir_id": "FIR/2024/1018",
+    "accused_id": "ACC1010",
+    "victim_id": "VIC1018",
+    "location_id": "LOC1018"
+  },
+  {
+    "fir_id": "FIR/2024/1019",
+    "accused_id": "ACC2012",
+    "victim_id": "VIC1019",
+    "location_id": "LOC1019"
+  },
+  {
+    "fir_id": "FIR/2024/1020",
+    "accused_id": "ACC2013",
+    "victim_id": "VIC1020",
+    "location_id": "LOC1020"
+  },
+  {
+    "fir_id": "FIR/2024/1021",
+    "accused_id": "ACC2014",
+    "victim_id": "VIC1021",
+    "location_id": "LOC1021"
+  },
+  {
+    "fir_id": "FIR/2024/1022",
+    "accused_id": "ACC2015",
+    "victim_id": "VIC1022",
+    "location_id": "LOC1022"
+  },
+  {
+    "fir_id": "FIR/2024/1023",
+    "accused_id": "ACC1005",
+    "victim_id": "VIC1023",
+    "location_id": "LOC1023"
+  },
+  {
+    "fir_id": "FIR/2024/1024",
+    "accused_id": "ACC2016",
+    "victim_id": "VIC1024",
+    "location_id": "LOC1024"
+  },
+  {
+    "fir_id": "FIR/2024/1025",
+    "accused_id": "ACC1007",
+    "victim_id": "VIC1025",
+    "location_id": "LOC1025"
+  },
+  {
+    "fir_id": "FIR/2024/1026",
+    "accused_id": "ACC1006",
+    "victim_id": "VIC1026",
+    "location_id": "LOC1026"
+  },
+  {
+    "fir_id": "FIR/2024/1027",
+    "accused_id": "ACC1001",
+    "victim_id": "VIC1027",
+    "location_id": "LOC1027"
+  },
+  {
+    "fir_id": "FIR/2024/1028",
+    "accused_id": "ACC2017",
+    "victim_id": "VIC1028",
+    "location_id": "LOC1028"
+  },
+  {
+    "fir_id": "FIR/2024/1029",
+    "accused_id": "ACC2018",
+    "victim_id": "VIC1029",
+    "location_id": "LOC1029"
+  },
+  {
+    "fir_id": "FIR/2024/1030",
+    "accused_id": "ACC1005",
+    "victim_id": "VIC1030",
+    "location_id": "LOC1030"
+  },
+  {
+    "fir_id": "FIR/2024/1031",
+    "accused_id": "ACC1003",
+    "victim_id": "VIC1031",
+    "location_id": "LOC1031"
+  },
+  {
+    "fir_id": "FIR/2024/1032",
+    "accused_id": "ACC1003",
+    "victim_id": "VIC1032",
+    "location_id": "LOC1032"
+  },
+  {
+    "fir_id": "FIR/2024/1033",
+    "accused_id": "ACC2019",
+    "victim_id": "VIC1033",
+    "location_id": "LOC1033"
+  },
+  {
+    "fir_id": "FIR/2024/1034",
+    "accused_id": "ACC2020",
+    "victim_id": "VIC1034",
+    "location_id": "LOC1034"
+  },
+  {
+    "fir_id": "FIR/2024/1035",
+    "accused_id": "ACC2021",
+    "victim_id": "VIC1035",
+    "location_id": "LOC1035"
+  },
+  {
+    "fir_id": "FIR/2024/1036",
+    "accused_id": "ACC2022",
+    "victim_id": "VIC1036",
+    "location_id": "LOC1036"
+  },
+  {
+    "fir_id": "FIR/2024/1037",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1037",
+    "location_id": "LOC1037"
+  },
+  {
+    "fir_id": "FIR/2024/1038",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1038",
+    "location_id": "LOC1038"
+  },
+  {
+    "fir_id": "FIR/2024/1039",
+    "accused_id": "ACC2023",
+    "victim_id": "VIC1039",
+    "location_id": "LOC1039"
+  },
+  {
+    "fir_id": "FIR/2024/1040",
+    "accused_id": "ACC2024",
+    "victim_id": "VIC1040",
+    "location_id": "LOC1040"
+  },
+  {
+    "fir_id": "FIR/2024/1041",
+    "accused_id": "ACC2025",
+    "victim_id": "VIC1041",
+    "location_id": "LOC1041"
+  },
+  {
+    "fir_id": "FIR/2024/1042",
+    "accused_id": "ACC1006",
+    "victim_id": "VIC1042",
+    "location_id": "LOC1042"
+  },
+  {
+    "fir_id": "FIR/2024/1043",
+    "accused_id": "ACC2026",
+    "victim_id": "VIC1043",
+    "location_id": "LOC1043"
+  },
+  {
+    "fir_id": "FIR/2024/1044",
+    "accused_id": "ACC1000",
+    "victim_id": "VIC1044",
+    "location_id": "LOC1044"
+  },
+  {
+    "fir_id": "FIR/2024/1045",
+    "accused_id": "ACC2027",
+    "victim_id": "VIC1045",
+    "location_id": "LOC1045"
+  },
+  {
+    "fir_id": "FIR/2024/1046",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1046",
+    "location_id": "LOC1046"
+  },
+  {
+    "fir_id": "FIR/2024/1047",
+    "accused_id": "ACC2028",
+    "victim_id": "VIC1047",
+    "location_id": "LOC1047"
+  },
+  {
+    "fir_id": "FIR/2024/1048",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1048",
+    "location_id": "LOC1048"
+  },
+  {
+    "fir_id": "FIR/2024/1049",
+    "accused_id": "ACC2029",
+    "victim_id": "VIC1049",
+    "location_id": "LOC1049"
+  },
+  {
+    "fir_id": "FIR/2024/1050",
+    "accused_id": "ACC1000",
+    "victim_id": "VIC1050",
+    "location_id": "LOC1050"
+  },
+  {
+    "fir_id": "FIR/2024/1051",
+    "accused_id": "ACC2030",
+    "victim_id": "VIC1051",
+    "location_id": "LOC1051"
+  },
+  {
+    "fir_id": "FIR/2024/1052",
+    "accused_id": "ACC2031",
+    "victim_id": "VIC1052",
+    "location_id": "LOC1052"
+  },
+  {
+    "fir_id": "FIR/2024/1053",
+    "accused_id": "ACC2032",
+    "victim_id": "VIC1053",
+    "location_id": "LOC1053"
+  },
+  {
+    "fir_id": "FIR/2024/1054",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1054",
+    "location_id": "LOC1054"
+  },
+  {
+    "fir_id": "FIR/2024/1055",
+    "accused_id": "ACC2033",
+    "victim_id": "VIC1055",
+    "location_id": "LOC1055"
+  },
+  {
+    "fir_id": "FIR/2024/1056",
+    "accused_id": "ACC2034",
+    "victim_id": "VIC1056",
+    "location_id": "LOC1056"
+  },
+  {
+    "fir_id": "FIR/2024/1057",
+    "accused_id": "ACC1007",
+    "victim_id": "VIC1057",
+    "location_id": "LOC1057"
+  },
+  {
+    "fir_id": "FIR/2024/1058",
+    "accused_id": "ACC2035",
+    "victim_id": "VIC1058",
+    "location_id": "LOC1058"
+  },
+  {
+    "fir_id": "FIR/2024/1059",
+    "accused_id": "ACC2036",
+    "victim_id": "VIC1059",
+    "location_id": "LOC1059"
+  },
+  {
+    "fir_id": "FIR/2024/1060",
+    "accused_id": "ACC2037",
+    "victim_id": "VIC1060",
+    "location_id": "LOC1060"
+  },
+  {
+    "fir_id": "FIR/2024/1061",
+    "accused_id": "ACC2038",
+    "victim_id": "VIC1061",
+    "location_id": "LOC1061"
+  },
+  {
+    "fir_id": "FIR/2024/1062",
+    "accused_id": "ACC2039",
+    "victim_id": "VIC1062",
+    "location_id": "LOC1062"
+  },
+  {
+    "fir_id": "FIR/2024/1063",
+    "accused_id": "ACC1011",
+    "victim_id": "VIC1063",
+    "location_id": "LOC1063"
+  },
+  {
+    "fir_id": "FIR/2024/1064",
+    "accused_id": "ACC1005",
+    "victim_id": "VIC1064",
+    "location_id": "LOC1064"
+  },
+  {
+    "fir_id": "FIR/2024/1065",
+    "accused_id": "ACC2040",
+    "victim_id": "VIC1065",
+    "location_id": "LOC1065"
+  },
+  {
+    "fir_id": "FIR/2024/1066",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1066",
+    "location_id": "LOC1066"
+  },
+  {
+    "fir_id": "FIR/2024/1067",
+    "accused_id": "ACC1012",
+    "victim_id": "VIC1067",
+    "location_id": "LOC1067"
+  },
+  {
+    "fir_id": "FIR/2024/1068",
+    "accused_id": "ACC2041",
+    "victim_id": "VIC1068",
+    "location_id": "LOC1068"
+  },
+  {
+    "fir_id": "FIR/2024/1069",
+    "accused_id": "ACC2042",
+    "victim_id": "VIC1069",
+    "location_id": "LOC1069"
+  },
+  {
+    "fir_id": "FIR/2024/1070",
+    "accused_id": "ACC2043",
+    "victim_id": "VIC1070",
+    "location_id": "LOC1070"
+  },
+  {
+    "fir_id": "FIR/2024/1071",
+    "accused_id": "ACC2044",
+    "victim_id": "VIC1071",
+    "location_id": "LOC1071"
+  },
+  {
+    "fir_id": "FIR/2024/1072",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1072",
+    "location_id": "LOC1072"
+  },
+  {
+    "fir_id": "FIR/2024/1073",
+    "accused_id": "ACC2045",
+    "victim_id": "VIC1073",
+    "location_id": "LOC1073"
+  },
+  {
+    "fir_id": "FIR/2024/1074",
+    "accused_id": "ACC2046",
+    "victim_id": "VIC1074",
+    "location_id": "LOC1074"
+  },
+  {
+    "fir_id": "FIR/2024/1075",
+    "accused_id": "ACC2047",
+    "victim_id": "VIC1075",
+    "location_id": "LOC1075"
+  },
+  {
+    "fir_id": "FIR/2024/1076",
+    "accused_id": "ACC2048",
+    "victim_id": "VIC1076",
+    "location_id": "LOC1076"
+  },
+  {
+    "fir_id": "FIR/2024/1077",
+    "accused_id": "ACC2049",
+    "victim_id": "VIC1077",
+    "location_id": "LOC1077"
+  },
+  {
+    "fir_id": "FIR/2024/1078",
+    "accused_id": "ACC2050",
+    "victim_id": "VIC1078",
+    "location_id": "LOC1078"
+  },
+  {
+    "fir_id": "FIR/2024/1079",
+    "accused_id": "ACC2051",
+    "victim_id": "VIC1079",
+    "location_id": "LOC1079"
+  },
+  {
+    "fir_id": "FIR/2024/1080",
+    "accused_id": "ACC2052",
+    "victim_id": "VIC1080",
+    "location_id": "LOC1080"
+  },
+  {
+    "fir_id": "FIR/2024/1081",
+    "accused_id": "ACC2053",
+    "victim_id": "VIC1081",
+    "location_id": "LOC1081"
+  },
+  {
+    "fir_id": "FIR/2024/1082",
+    "accused_id": "ACC2054",
+    "victim_id": "VIC1082",
+    "location_id": "LOC1082"
+  },
+  {
+    "fir_id": "FIR/2024/1083",
+    "accused_id": "ACC1001",
+    "victim_id": "VIC1083",
+    "location_id": "LOC1083"
+  },
+  {
+    "fir_id": "FIR/2024/1084",
+    "accused_id": "ACC2055",
+    "victim_id": "VIC1084",
+    "location_id": "LOC1084"
+  },
+  {
+    "fir_id": "FIR/2024/1085",
+    "accused_id": "ACC2056",
+    "victim_id": "VIC1085",
+    "location_id": "LOC1085"
+  },
+  {
+    "fir_id": "FIR/2024/1086",
+    "accused_id": "ACC1012",
+    "victim_id": "VIC1086",
+    "location_id": "LOC1086"
+  },
+  {
+    "fir_id": "FIR/2024/1087",
+    "accused_id": "ACC1012",
+    "victim_id": "VIC1087",
+    "location_id": "LOC1087"
+  },
+  {
+    "fir_id": "FIR/2024/1088",
+    "accused_id": "ACC2057",
+    "victim_id": "VIC1088",
+    "location_id": "LOC1088"
+  },
+  {
+    "fir_id": "FIR/2024/1089",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1089",
+    "location_id": "LOC1089"
+  },
+  {
+    "fir_id": "FIR/2024/1090",
+    "accused_id": "ACC2058",
+    "victim_id": "VIC1090",
+    "location_id": "LOC1090"
+  },
+  {
+    "fir_id": "FIR/2024/1091",
+    "accused_id": "ACC2059",
+    "victim_id": "VIC1091",
+    "location_id": "LOC1091"
+  },
+  {
+    "fir_id": "FIR/2024/1092",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1092",
+    "location_id": "LOC1092"
+  },
+  {
+    "fir_id": "FIR/2024/1093",
+    "accused_id": "ACC2060",
+    "victim_id": "VIC1093",
+    "location_id": "LOC1093"
+  },
+  {
+    "fir_id": "FIR/2024/1094",
+    "accused_id": "ACC2061",
+    "victim_id": "VIC1094",
+    "location_id": "LOC1094"
+  },
+  {
+    "fir_id": "FIR/2024/1095",
+    "accused_id": "ACC2062",
+    "victim_id": "VIC1095",
+    "location_id": "LOC1095"
+  },
+  {
+    "fir_id": "FIR/2024/1096",
+    "accused_id": "ACC2063",
+    "victim_id": "VIC1096",
+    "location_id": "LOC1096"
+  },
+  {
+    "fir_id": "FIR/2024/1097",
+    "accused_id": "ACC2064",
+    "victim_id": "VIC1097",
+    "location_id": "LOC1097"
+  },
+  {
+    "fir_id": "FIR/2024/1098",
+    "accused_id": "ACC2065",
+    "victim_id": "VIC1098",
+    "location_id": "LOC1098"
+  },
+  {
+    "fir_id": "FIR/2024/1099",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1099",
+    "location_id": "LOC1099"
+  },
+  {
+    "fir_id": "FIR/2024/1100",
+    "accused_id": "ACC2066",
+    "victim_id": "VIC1100",
+    "location_id": "LOC1100"
+  },
+  {
+    "fir_id": "FIR/2024/1101",
+    "accused_id": "ACC1008",
+    "victim_id": "VIC1101",
+    "location_id": "LOC1101"
+  },
+  {
+    "fir_id": "FIR/2024/1102",
+    "accused_id": "ACC2067",
+    "victim_id": "VIC1102",
+    "location_id": "LOC1102"
+  },
+  {
+    "fir_id": "FIR/2024/1103",
+    "accused_id": "ACC2068",
+    "victim_id": "VIC1103",
+    "location_id": "LOC1103"
+  },
+  {
+    "fir_id": "FIR/2024/1104",
+    "accused_id": "ACC2069",
+    "victim_id": "VIC1104",
+    "location_id": "LOC1104"
+  },
+  {
+    "fir_id": "FIR/2024/1105",
+    "accused_id": "ACC2070",
+    "victim_id": "VIC1105",
+    "location_id": "LOC1105"
+  },
+  {
+    "fir_id": "FIR/2024/1106",
+    "accused_id": "ACC2071",
+    "victim_id": "VIC1106",
+    "location_id": "LOC1106"
+  },
+  {
+    "fir_id": "FIR/2024/1107",
+    "accused_id": "ACC1007",
+    "victim_id": "VIC1107",
+    "location_id": "LOC1107"
+  },
+  {
+    "fir_id": "FIR/2024/1108",
+    "accused_id": "ACC1010",
+    "victim_id": "VIC1108",
+    "location_id": "LOC1108"
+  },
+  {
+    "fir_id": "FIR/2024/1109",
+    "accused_id": "ACC2072",
+    "victim_id": "VIC1109",
+    "location_id": "LOC1109"
+  },
+  {
+    "fir_id": "FIR/2024/1110",
+    "accused_id": "ACC1011",
+    "victim_id": "VIC1110",
+    "location_id": "LOC1110"
+  },
+  {
+    "fir_id": "FIR/2024/1111",
+    "accused_id": "ACC1012",
+    "victim_id": "VIC1111",
+    "location_id": "LOC1111"
+  },
+  {
+    "fir_id": "FIR/2024/1112",
+    "accused_id": "ACC2073",
+    "victim_id": "VIC1112",
+    "location_id": "LOC1112"
+  },
+  {
+    "fir_id": "FIR/2024/1113",
+    "accused_id": "ACC2074",
+    "victim_id": "VIC1113",
+    "location_id": "LOC1113"
+  },
+  {
+    "fir_id": "FIR/2024/1114",
+    "accused_id": "ACC2075",
+    "victim_id": "VIC1114",
+    "location_id": "LOC1114"
+  },
+  {
+    "fir_id": "FIR/2024/1115",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1115",
+    "location_id": "LOC1115"
+  },
+  {
+    "fir_id": "FIR/2024/1116",
+    "accused_id": "ACC2076",
+    "victim_id": "VIC1116",
+    "location_id": "LOC1116"
+  },
+  {
+    "fir_id": "FIR/2024/1117",
+    "accused_id": "ACC2077",
+    "victim_id": "VIC1117",
+    "location_id": "LOC1117"
+  },
+  {
+    "fir_id": "FIR/2024/1118",
+    "accused_id": "ACC2078",
+    "victim_id": "VIC1118",
+    "location_id": "LOC1118"
+  },
+  {
+    "fir_id": "FIR/2024/1119",
+    "accused_id": "ACC1001",
+    "victim_id": "VIC1119",
+    "location_id": "LOC1119"
+  },
+  {
+    "fir_id": "FIR/2025/1120",
+    "accused_id": "ACC2079",
+    "victim_id": "VIC1120",
+    "location_id": "LOC1120"
+  },
+  {
+    "fir_id": "FIR/2025/1121",
+    "accused_id": "ACC1005",
+    "victim_id": "VIC1121",
+    "location_id": "LOC1121"
+  },
+  {
+    "fir_id": "FIR/2025/1122",
+    "accused_id": "ACC2080",
+    "victim_id": "VIC1122",
+    "location_id": "LOC1122"
+  },
+  {
+    "fir_id": "FIR/2025/1123",
+    "accused_id": "ACC2081",
+    "victim_id": "VIC1123",
+    "location_id": "LOC1123"
+  },
+  {
+    "fir_id": "FIR/2025/1124",
+    "accused_id": "ACC2082",
+    "victim_id": "VIC1124",
+    "location_id": "LOC1124"
+  },
+  {
+    "fir_id": "FIR/2025/1125",
+    "accused_id": "ACC2083",
+    "victim_id": "VIC1125",
+    "location_id": "LOC1125"
+  },
+  {
+    "fir_id": "FIR/2025/1126",
+    "accused_id": "ACC1011",
+    "victim_id": "VIC1126",
+    "location_id": "LOC1126"
+  },
+  {
+    "fir_id": "FIR/2025/1127",
+    "accused_id": "ACC2084",
+    "victim_id": "VIC1127",
+    "location_id": "LOC1127"
+  },
+  {
+    "fir_id": "FIR/2025/1128",
+    "accused_id": "ACC1008",
+    "victim_id": "VIC1128",
+    "location_id": "LOC1128"
+  },
+  {
+    "fir_id": "FIR/2025/1129",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1129",
+    "location_id": "LOC1129"
+  },
+  {
+    "fir_id": "FIR/2025/1130",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1130",
+    "location_id": "LOC1130"
+  },
+  {
+    "fir_id": "FIR/2025/1131",
+    "accused_id": "ACC2085",
+    "victim_id": "VIC1131",
+    "location_id": "LOC1131"
+  },
+  {
+    "fir_id": "FIR/2025/1132",
+    "accused_id": "ACC2086",
+    "victim_id": "VIC1132",
+    "location_id": "LOC1132"
+  },
+  {
+    "fir_id": "FIR/2025/1133",
+    "accused_id": "ACC2087",
+    "victim_id": "VIC1133",
+    "location_id": "LOC1133"
+  },
+  {
+    "fir_id": "FIR/2025/1134",
+    "accused_id": "ACC2088",
+    "victim_id": "VIC1134",
+    "location_id": "LOC1134"
+  },
+  {
+    "fir_id": "FIR/2025/1135",
+    "accused_id": "ACC2089",
+    "victim_id": "VIC1135",
+    "location_id": "LOC1135"
+  },
+  {
+    "fir_id": "FIR/2025/1136",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1136",
+    "location_id": "LOC1136"
+  },
+  {
+    "fir_id": "FIR/2025/1137",
+    "accused_id": "ACC2090",
+    "victim_id": "VIC1137",
+    "location_id": "LOC1137"
+  },
+  {
+    "fir_id": "FIR/2025/1138",
+    "accused_id": "ACC2091",
+    "victim_id": "VIC1138",
+    "location_id": "LOC1138"
+  },
+  {
+    "fir_id": "FIR/2025/1139",
+    "accused_id": "ACC2092",
+    "victim_id": "VIC1139",
+    "location_id": "LOC1139"
+  },
+  {
+    "fir_id": "FIR/2025/1140",
+    "accused_id": "ACC2093",
+    "victim_id": "VIC1140",
+    "location_id": "LOC1140"
+  },
+  {
+    "fir_id": "FIR/2025/1141",
+    "accused_id": "ACC1008",
+    "victim_id": "VIC1141",
+    "location_id": "LOC1141"
+  },
+  {
+    "fir_id": "FIR/2025/1142",
+    "accused_id": "ACC1001",
+    "victim_id": "VIC1142",
+    "location_id": "LOC1142"
+  },
+  {
+    "fir_id": "FIR/2025/1143",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1143",
+    "location_id": "LOC1143"
+  },
+  {
+    "fir_id": "FIR/2025/1144",
+    "accused_id": "ACC1006",
+    "victim_id": "VIC1144",
+    "location_id": "LOC1144"
+  },
+  {
+    "fir_id": "FIR/2025/1145",
+    "accused_id": "ACC2094",
+    "victim_id": "VIC1145",
+    "location_id": "LOC1145"
+  },
+  {
+    "fir_id": "FIR/2025/1146",
+    "accused_id": "ACC2095",
+    "victim_id": "VIC1146",
+    "location_id": "LOC1146"
+  },
+  {
+    "fir_id": "FIR/2025/1147",
+    "accused_id": "ACC2096",
+    "victim_id": "VIC1147",
+    "location_id": "LOC1147"
+  },
+  {
+    "fir_id": "FIR/2025/1148",
+    "accused_id": "ACC2097",
+    "victim_id": "VIC1148",
+    "location_id": "LOC1148"
+  },
+  {
+    "fir_id": "FIR/2025/1149",
+    "accused_id": "ACC2098",
+    "victim_id": "VIC1149",
+    "location_id": "LOC1149"
+  },
+  {
+    "fir_id": "FIR/2025/1150",
+    "accused_id": "ACC2099",
+    "victim_id": "VIC1150",
+    "location_id": "LOC1150"
+  },
+  {
+    "fir_id": "FIR/2025/1151",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1151",
+    "location_id": "LOC1151"
+  },
+  {
+    "fir_id": "FIR/2025/1152",
+    "accused_id": "ACC2100",
+    "victim_id": "VIC1152",
+    "location_id": "LOC1152"
+  },
+  {
+    "fir_id": "FIR/2025/1153",
+    "accused_id": "ACC2101",
+    "victim_id": "VIC1153",
+    "location_id": "LOC1153"
+  },
+  {
+    "fir_id": "FIR/2025/1154",
+    "accused_id": "ACC2102",
+    "victim_id": "VIC1154",
+    "location_id": "LOC1154"
+  },
+  {
+    "fir_id": "FIR/2025/1155",
+    "accused_id": "ACC1005",
+    "victim_id": "VIC1155",
+    "location_id": "LOC1155"
+  },
+  {
+    "fir_id": "FIR/2025/1156",
+    "accused_id": "ACC2103",
+    "victim_id": "VIC1156",
+    "location_id": "LOC1156"
+  },
+  {
+    "fir_id": "FIR/2025/1157",
+    "accused_id": "ACC1012",
+    "victim_id": "VIC1157",
+    "location_id": "LOC1157"
+  },
+  {
+    "fir_id": "FIR/2025/1158",
+    "accused_id": "ACC2104",
+    "victim_id": "VIC1158",
+    "location_id": "LOC1158"
+  },
+  {
+    "fir_id": "FIR/2025/1159",
+    "accused_id": "ACC2105",
+    "victim_id": "VIC1159",
+    "location_id": "LOC1159"
+  },
+  {
+    "fir_id": "FIR/2025/1160",
+    "accused_id": "ACC2106",
+    "victim_id": "VIC1160",
+    "location_id": "LOC1160"
+  },
+  {
+    "fir_id": "FIR/2025/1161",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1161",
+    "location_id": "LOC1161"
+  },
+  {
+    "fir_id": "FIR/2025/1162",
+    "accused_id": "ACC1001",
+    "victim_id": "VIC1162",
+    "location_id": "LOC1162"
+  },
+  {
+    "fir_id": "FIR/2025/1163",
+    "accused_id": "ACC2107",
+    "victim_id": "VIC1163",
+    "location_id": "LOC1163"
+  },
+  {
+    "fir_id": "FIR/2025/1164",
+    "accused_id": "ACC2108",
+    "victim_id": "VIC1164",
+    "location_id": "LOC1164"
+  },
+  {
+    "fir_id": "FIR/2025/1165",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1165",
+    "location_id": "LOC1165"
+  },
+  {
+    "fir_id": "FIR/2025/1166",
+    "accused_id": "ACC1012",
+    "victim_id": "VIC1166",
+    "location_id": "LOC1166"
+  },
+  {
+    "fir_id": "FIR/2025/1167",
+    "accused_id": "ACC1003",
+    "victim_id": "VIC1167",
+    "location_id": "LOC1167"
+  },
+  {
+    "fir_id": "FIR/2025/1168",
+    "accused_id": "ACC2109",
+    "victim_id": "VIC1168",
+    "location_id": "LOC1168"
+  },
+  {
+    "fir_id": "FIR/2025/1169",
+    "accused_id": "ACC2110",
+    "victim_id": "VIC1169",
+    "location_id": "LOC1169"
+  },
+  {
+    "fir_id": "FIR/2025/1170",
+    "accused_id": "ACC2111",
+    "victim_id": "VIC1170",
+    "location_id": "LOC1170"
+  },
+  {
+    "fir_id": "FIR/2025/1171",
+    "accused_id": "ACC2112",
+    "victim_id": "VIC1171",
+    "location_id": "LOC1171"
+  },
+  {
+    "fir_id": "FIR/2025/1172",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1172",
+    "location_id": "LOC1172"
+  },
+  {
+    "fir_id": "FIR/2025/1173",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1173",
+    "location_id": "LOC1173"
+  },
+  {
+    "fir_id": "FIR/2025/1174",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1174",
+    "location_id": "LOC1174"
+  },
+  {
+    "fir_id": "FIR/2025/1175",
+    "accused_id": "ACC1003",
+    "victim_id": "VIC1175",
+    "location_id": "LOC1175"
+  },
+  {
+    "fir_id": "FIR/2025/1176",
+    "accused_id": "ACC2113",
+    "victim_id": "VIC1176",
+    "location_id": "LOC1176"
+  },
+  {
+    "fir_id": "FIR/2025/1177",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1177",
+    "location_id": "LOC1177"
+  },
+  {
+    "fir_id": "FIR/2025/1178",
+    "accused_id": "ACC2114",
+    "victim_id": "VIC1178",
+    "location_id": "LOC1178"
+  },
+  {
+    "fir_id": "FIR/2025/1179",
+    "accused_id": "ACC2115",
+    "victim_id": "VIC1179",
+    "location_id": "LOC1179"
+  },
+  {
+    "fir_id": "FIR/2025/1180",
+    "accused_id": "ACC2116",
+    "victim_id": "VIC1180",
+    "location_id": "LOC1180"
+  },
+  {
+    "fir_id": "FIR/2025/1181",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1181",
+    "location_id": "LOC1181"
+  },
+  {
+    "fir_id": "FIR/2025/1182",
+    "accused_id": "ACC2117",
+    "victim_id": "VIC1182",
+    "location_id": "LOC1182"
+  },
+  {
+    "fir_id": "FIR/2025/1183",
+    "accused_id": "ACC2118",
+    "victim_id": "VIC1183",
+    "location_id": "LOC1183"
+  },
+  {
+    "fir_id": "FIR/2025/1184",
+    "accused_id": "ACC2119",
+    "victim_id": "VIC1184",
+    "location_id": "LOC1184"
+  },
+  {
+    "fir_id": "FIR/2025/1185",
+    "accused_id": "ACC2120",
+    "victim_id": "VIC1185",
+    "location_id": "LOC1185"
+  },
+  {
+    "fir_id": "FIR/2025/1186",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1186",
+    "location_id": "LOC1186"
+  },
+  {
+    "fir_id": "FIR/2025/1187",
+    "accused_id": "ACC1004",
+    "victim_id": "VIC1187",
+    "location_id": "LOC1187"
+  },
+  {
+    "fir_id": "FIR/2025/1188",
+    "accused_id": "ACC2121",
+    "victim_id": "VIC1188",
+    "location_id": "LOC1188"
+  },
+  {
+    "fir_id": "FIR/2025/1189",
+    "accused_id": "ACC2122",
+    "victim_id": "VIC1189",
+    "location_id": "LOC1189"
+  },
+  {
+    "fir_id": "FIR/2025/1190",
+    "accused_id": "ACC2123",
+    "victim_id": "VIC1190",
+    "location_id": "LOC1190"
+  },
+  {
+    "fir_id": "FIR/2025/1191",
+    "accused_id": "ACC2124",
+    "victim_id": "VIC1191",
+    "location_id": "LOC1191"
+  },
+  {
+    "fir_id": "FIR/2025/1192",
+    "accused_id": "ACC2125",
+    "victim_id": "VIC1192",
+    "location_id": "LOC1192"
+  },
+  {
+    "fir_id": "FIR/2025/1193",
+    "accused_id": "ACC2126",
+    "victim_id": "VIC1193",
+    "location_id": "LOC1193"
+  },
+  {
+    "fir_id": "FIR/2025/1194",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1194",
+    "location_id": "LOC1194"
+  },
+  {
+    "fir_id": "FIR/2025/1195",
+    "accused_id": "ACC1013",
+    "victim_id": "VIC1195",
+    "location_id": "LOC1195"
+  },
+  {
+    "fir_id": "FIR/2025/1196",
+    "accused_id": "ACC2127",
+    "victim_id": "VIC1196",
+    "location_id": "LOC1196"
+  },
+  {
+    "fir_id": "FIR/2025/1197",
+    "accused_id": "ACC1009",
+    "victim_id": "VIC1197",
+    "location_id": "LOC1197"
+  },
+  {
+    "fir_id": "FIR/2025/1198",
+    "accused_id": "ACC2128",
+    "victim_id": "VIC1198",
+    "location_id": "LOC1198"
+  },
+  {
+    "fir_id": "FIR/2025/1199",
+    "accused_id": "ACC2129",
+    "victim_id": "VIC1199",
+    "location_id": "LOC1199"
+  },
+  {
+    "fir_id": "FIR/2025/1200",
+    "accused_id": "ACC2130",
+    "victim_id": "VIC1200",
+    "location_id": "LOC1200"
+  },
+  {
+    "fir_id": "FIR/2025/1201",
+    "accused_id": "ACC2131",
+    "victim_id": "VIC1201",
+    "location_id": "LOC1201"
+  },
+  {
+    "fir_id": "FIR/2025/1202",
+    "accused_id": "ACC2132",
+    "victim_id": "VIC1202",
+    "location_id": "LOC1202"
+  },
+  {
+    "fir_id": "FIR/2025/1203",
+    "accused_id": "ACC2133",
+    "victim_id": "VIC1203",
+    "location_id": "LOC1203"
+  },
+  {
+    "fir_id": "FIR/2025/1204",
+    "accused_id": "ACC2134",
+    "victim_id": "VIC1204",
+    "location_id": "LOC1204"
+  },
+  {
+    "fir_id": "FIR/2025/1205",
+    "accused_id": "ACC1008",
+    "victim_id": "VIC1205",
+    "location_id": "LOC1205"
+  },
+  {
+    "fir_id": "FIR/2025/1206",
+    "accused_id": "ACC2135",
+    "victim_id": "VIC1206",
+    "location_id": "LOC1206"
+  },
+  {
+    "fir_id": "FIR/2025/1207",
+    "accused_id": "ACC2136",
+    "victim_id": "VIC1207",
+    "location_id": "LOC1207"
+  },
+  {
+    "fir_id": "FIR/2025/1208",
+    "accused_id": "ACC2137",
+    "victim_id": "VIC1208",
+    "location_id": "LOC1208"
+  },
+  {
+    "fir_id": "FIR/2025/1209",
+    "accused_id": "ACC1007",
+    "victim_id": "VIC1209",
+    "location_id": "LOC1209"
+  },
+  {
+    "fir_id": "FIR/2025/1210",
+    "accused_id": "ACC2138",
+    "victim_id": "VIC1210",
+    "location_id": "LOC1210"
+  },
+  {
+    "fir_id": "FIR/2025/1211",
+    "accused_id": "ACC1002",
+    "victim_id": "VIC1211",
+    "location_id": "LOC1211"
+  },
+  {
+    "fir_id": "FIR/2025/1212",
+    "accused_id": "ACC2139",
+    "victim_id": "VIC1212",
+    "location_id": "LOC1212"
+  },
+  {
+    "fir_id": "FIR/2025/1213",
+    "accused_id": "ACC2140",
+    "victim_id": "VIC1213",
+    "location_id": "LOC1213"
+  },
+  {
+    "fir_id": "FIR/2025/1214",
+    "accused_id": "ACC2141",
+    "victim_id": "VIC1214",
+    "location_id": "LOC1214"
+  },
+  {
+    "fir_id": "FIR/2025/1215",
+    "accused_id": "ACC1003",
+    "victim_id": "VIC1215",
+    "location_id": "LOC1215"
+  },
+  {
+    "fir_id": "FIR/2025/1216",
+    "accused_id": "ACC2142",
+    "victim_id": "VIC1216",
+    "location_id": "LOC1216"
+  },
+  {
+    "fir_id": "FIR/2025/1217",
+    "accused_id": "ACC2143",
+    "victim_id": "VIC1217",
+    "location_id": "LOC1217"
+  },
+  {
+    "fir_id": "FIR/2025/1218",
+    "accused_id": "ACC1011",
+    "victim_id": "VIC1218",
+    "location_id": "LOC1218"
+  },
+  {
+    "fir_id": "FIR/2025/1219",
+    "accused_id": "ACC1006",
+    "victim_id": "VIC1219",
+    "location_id": "LOC1219"
+  }
+]

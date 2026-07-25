@@ -1,0 +1,28 @@
+{
+  "project_name": "ksp-crime-intel",
+  "functions": [
+    {
+      "name": "chatQuery",
+      "type": "advancedio",
+      "source": "./functions/chatQuery",
+      "handler": "handler.handler",
+      "runtime": "python312",
+      "memory": 256,
+      "timeout": 60
+    }
+  ],
+  "client": {
+    "source": "./client",
+    "stack_type": "html",
+    "build_directive": {
+      "build_command": "",
+      "output_directory": "./client"
+    }
+  },
+  "notes": [
+    "Deploy with the Catalyst CLI: `catalyst init` (link this project), then `catalyst deploy`.",
+    "Before deploying, set ANTHROPIC_API_KEY under Functions > chatQuery > Environment Variables in the Catalyst Console.",
+    "After deploying, update API_BASE in client/index.html to the function's live execution URL (Console > Functions > chatQuery > Domain).",
+    "See README.md for the full step-by-step deployment walkthrough."
+  ]
+}

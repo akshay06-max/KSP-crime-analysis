@@ -1,0 +1,5 @@
+# Catalyst Python Advanced I/O Function dependencies.
+# engine.py uses only the Python standard library (json, os, re, urllib,
+# collections, pathlib) so no third-party packages are required at
+# deploy time. flask/flask-cors below are ONLY needed if you run
+# server.py locally for testing - Catalyst does not use them.

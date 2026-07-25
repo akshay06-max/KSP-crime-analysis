@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Setu — Crime Intelligence Assistant</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.6/standalone/umd/vis-network.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Kannada:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#11151b;
+    --panel:#171d26;
+    --panel-2:#1d2530;
+    --line:#2a3340;
+    --text:#e7ebf0;
+    --muted:#8b96a5;
+    --amber:#d9a441;
+    --amber-dim:#8a6a2f;
+    --teal:#4d8fa0;
+    --red:#c65b4e;
+    --green:#5a9c6e;
+    --mono:'IBM Plex Mono', monospace;
+    --sans:'IBM Plex Sans','Noto Sans Kannada', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);}
+  .app{display:grid;grid-template-columns:220px 1fr;min-height:100vh;}
+  .sidebar{background:var(--panel);border-right:1px solid var(--line);padding:20px 14px;display:flex;flex-direction:column;gap:6px;}
+  .brand{display:flex;align-items:center;gap:10px;margin-bottom:22px;padding:0 6px;}
+  .brand .mark{width:28px;height:28px;border:2px solid var(--amber);border-radius:4px;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:600;color:var(--amber);font-size:13px;flex-shrink:0;}
+  .brand .name{font-weight:700;letter-spacing:.3px;font-size:16px;}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+  .nav-item{padding:10px 12px;border-radius:6px;cursor:pointer;color:var(--muted);font-size:14px;display:flex;align-items:center;gap:10px;border-left:2px solid transparent;}
+  .nav-item .num{font-family:var(--mono);font-size:11px;color:var(--amber-dim);width:16px;}
+  .nav-item:hover{background:var(--panel-2);color:var(--text);}
+  .nav-item.active{background:var(--panel-2);color:var(--text);border-left:2px solid var(--amber);}
+  .nav-item.active .num{color:var(--amber);}
+  .sidebar-footer{margin-top:auto;font-family:var(--mono);font-size:10.5px;color:var(--muted);padding:10px 12px;border-top:1px solid var(--line);line-height:1.6;}
+  .main{padding:22px 28px;overflow-y:auto;}
+  .view{display:none;}
+  .view.active{display:block;}
+  .view-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:18px;flex-wrap:wrap;gap:10px;}
+  .view-title{font-size:19px;font-weight:700;}
+  .view-sub{color:var(--muted);font-size:12.5px;margin-top:2px;}
+  .btn{background:var(--panel-2);border:1px solid var(--line);color:var(--text);padding:8px 14px;border-radius:6px;font-size:12.5px;cursor:pointer;font-family:var(--sans);}
+  .btn:hover{border-color:var(--amber-dim);}
+  .btn.primary{background:var(--amber);color:#1a1408;border-color:var(--amber);font-weight:600;}
+  .btn.primary:hover{filter:brightness(1.08);}
+  select,input[type=text]{background:var(--panel-2);border:1px solid var(--line);color:var(--text);padding:8px 10px;border-radius:6px;font-family:var(--sans);font-size:13px;}
+
+  /* --- Chat view --- */
+  #chatLog{background:var(--panel);border:1px solid var(--line);border-radius:8px;height:52vh;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:14px;}
+  .msg{max-width:78%;padding:11px 14px;border-radius:8px;font-size:13.5px;line-height:1.55;}
+  .msg.user{align-self:flex-end;background:var(--teal);color:#0d1b1f;font-weight:500;}
+  .msg.bot{align-self:flex-start;background:var(--panel-2);border:1px solid var(--line);white-space:pre-wrap;}
+  .msg .cites{margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--amber);display:flex;gap:6px;flex-wrap:wrap;}
+  .cite-tag{border:1px solid var(--amber-dim);padding:2px 6px;border-radius:3px;}
+  .chat-input-row{display:flex;gap:8px;margin-top:12px;}
+  #chatInput{flex:1;padding:12px 14px;font-size:14px;}
+  .suggestions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .sugg{font-family:var(--mono);font-size:11.5px;color:var(--muted);border:1px dashed var(--line);padding:6px 10px;border-radius:5px;cursor:pointer;}
+  .sugg:hover{color:var(--amber);border-color:var(--amber-dim);}
+
+  /* --- Cards / stats --- */
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:18px;}
+  .stat-card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;position:relative;overflow:hidden;}
+  .stat-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--amber);}
+  .stat-card .label{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;}
+  .stat-card .value{font-size:26px;font-weight:700;margin-top:4px;}
+  .stat-card .sub{font-size:11.5px;color:var(--muted);margin-top:2px;}
+  .charts-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  .chart-box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;height:290px;}
+  .chart-box h4{margin:0 0 10px;font-size:12.5px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.4px;}
+
+  /* --- Network view --- */
+  #networkControls{display:flex;gap:10px;margin-bottom:14px;align-items:center;}
+  #networkCanvas{background:var(--panel);border:1px solid var(--line);border-radius:8px;height:56vh;}
+  .legend{display:flex;gap:16px;margin-top:10px;font-size:12px;color:var(--muted);}
+  .legend span{display:inline-flex;align-items:center;gap:6px;}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block;}
+
+  /* --- Risk view --- */
+  .risk-table{width:100%;border-collapse:collapse;font-size:13px;}
+  .risk-table th{text-align:left;color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.4px;padding:10px 12px;border-bottom:1px solid var(--line);}
+  .risk-table td{padding:11px 12px;border-bottom:1px solid var(--line);}
+  .band{padding:3px 9px;border-radius:20px;font-size:11px;font-weight:600;font-family:var(--mono);}
+  .band.High{background:rgba(198,91,78,.18);color:var(--red);}
+  .band.Medium{background:rgba(217,164,65,.18);color:var(--amber);}
+  .band.Low{background:rgba(90,156,110,.18);color:var(--green);}
+  .id-mono{font-family:var(--mono);color:var(--muted);font-size:12px;}
+
+  ::-webkit-scrollbar{width:8px;height:8px;}
+  ::-webkit-scrollbar-thumb{background:var(--line);border-radius:4px;}
+</style>
+</head>
+<body>
+<div class="app">
+
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="mark">ಸೇ</div>
+      <div>
+        <div class="name">Setu</div>
+        <div class="tag">KSP Crime Intel</div>
+      </div>
+    </div>
+    <div class="nav-item active" data-view="chat"><span class="num">01</span> Conversational Query</div>
+    <div class="nav-item" data-view="network"><span class="num">02</span> Network Analysis</div>
+    <div class="nav-item" data-view="dashboard"><span class="num">03</span> Pattern & Trends</div>
+    <div class="nav-item" data-view="risk"><span class="num">04</span> Offender Risk Scoring</div>
+    <div class="sidebar-footer">
+      DATASET: synthetic demo<br>
+      220 FIRs · 158 accused<br>
+      Session: <span id="sessionIdLabel">default</span>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- VIEW 1: CHAT -->
+    <section class="view active" id="view-chat">
+      <div class="view-header">
+        <div>
+          <div class="view-title">Conversational Crime Intelligence</div>
+          <div class="view-sub">Ask about FIRs, accused, victims, locations, or investigation status. Answers cite source FIR IDs.</div>
+        </div>
+        <div style="display:flex;gap:8px;">
+          <select id="langSelect">
+            <option value="en">English</option>
+            <option value="kn">ಕನ್ನಡ (Kannada)</option>
+          </select>
+          <button class="btn" id="resetBtn">Reset session</button>
+          <button class="btn primary" id="exportPdfBtn">Export conversation (PDF)</button>
+        </div>
+      </div>
+
+      <div id="chatLog"></div>
+      <div class="suggestions" id="suggestions">
+        <div class="sugg">Chain snatching cases in Indiranagar</div>
+        <div class="sugg">Cases still under investigation</div>
+        <div class="sugg">Show cybercrime fraud cases</div>
+        <div class="sugg">What about status of those?</div>
+      </div>
+      <div class="chat-input-row">
+        <input type="text" id="chatInput" placeholder="e.g. Show me robbery cases in KR Puram this year" />
+        <button class="btn primary" id="sendBtn">Send</button>
+      </div>
+    </section>
+
+    <!-- VIEW 2: NETWORK -->
+    <section class="view" id="view-network">
+      <div class="view-header">
+        <div>
+          <div class="view-title">Criminal Network & Relationship Analysis</div>
+          <div class="view-sub">Repeat offenders (≥2 linked FIRs) and their connections to victims and locations.</div>
+        </div>
+      </div>
+      <div id="networkControls">
+        <button class="btn primary" id="loadNetworkBtn">Load repeat-offender network</button>
+        <span style="color:var(--muted);font-size:12.5px;">or filter by accused ID:</span>
+        <input type="text" id="accusedIdInput" placeholder="e.g. ACC1004" style="width:120px;" />
+        <button class="btn" id="loadSingleBtn">View subnetwork</button>
+      </div>
+      <div id="networkCanvas"></div>
+      <div class="legend">
+        <span><span class="dot" style="background:#d9a441"></span> Accused (node size = case count)</span>
+        <span><span class="dot" style="background:#4d8fa0"></span> Victim</span>
+        <span><span class="dot" style="background:#8b96a5"></span> Location</span>
+      </div>
+    </section>
+
+    <!-- VIEW 3: DASHBOARD -->
+    <section class="view" id="view-dashboard">
+      <div class="view-header">
+        <div>
+          <div class="view-title">Crime Pattern & Trend Analytics</div>
+          <div class="view-sub">Aggregate view across the current dataset.</div>
+        </div>
+        <button class="btn primary" id="refreshDashBtn">Refresh</button>
+      </div>
+      <div class="grid-3" id="statCards"></div>
+      <div class="charts-grid">
+        <div class="chart-box"><h4>Crime type breakdown</h4><canvas id="crimeTypeChart"></canvas></div>
+        <div class="chart-box"><h4>Hotspot areas</h4><canvas id="areaChart"></canvas></div>
+        <div class="chart-box"><h4>Monthly trend</h4><canvas id="trendChart"></canvas></div>
+        <div class="chart-box"><h4>Case status breakdown</h4><canvas id="statusChart"></canvas></div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: RISK -->
+    <section class="view" id="view-risk">
+      <div class="view-header">
+        <div>
+          <div class="view-title">Criminology-Based Offender Risk Scoring</div>
+          <div class="view-sub">Transparent scorecard model — every score shows its components. Not a black box.</div>
+        </div>
+        <button class="btn primary" id="loadRiskBtn">Load top offenders</button>
+      </div>
+      <table class="risk-table">
+        <thead><tr><th>Accused</th><th>ID</th><th>Linked cases</th><th>Score</th><th>Band</th><th>Explanation</th></tr></thead>
+        <tbody id="riskTableBody"></tbody>
+      </table>
+    </section>
+
+  </main>
+</div>
+
+<script>
+const API_BASE = "http://localhost:5000"; // change to your deployed Catalyst execution URL
+const sessionId = "session_" + Math.random().toString(36).slice(2, 9);
+document.getElementById("sessionIdLabel").textContent = sessionId;
+
+// ---- Nav ----
+document.querySelectorAll(".nav-item").forEach(el => {
+  el.addEventListener("click", () => {
+    document.querySelectorAll(".nav-item").forEach(n => n.classList.remove("active"));
+    document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+    el.classList.add("active");
+    document.getElementById("view-" + el.dataset.view).classList.add("active");
+  });
+});
+
+async function callApi(payload) {
+  const res = await fetch(API_BASE + "/server/chatQuery", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(payload),
+  });
+  return res.json();
+}
+
+// ---- Chat ----
+const chatLog = document.getElementById("chatLog");
+function addMsg(role, text, sources) {
+  const div = document.createElement("div");
+  div.className = "msg " + role;
+  div.textContent = text;
+  if (sources && sources.length) {
+    const cites = document.createElement("div");
+    cites.className = "cites";
+    sources.forEach(s => {
+      const tag = document.createElement("span");
+      tag.className = "cite-tag";
+      tag.textContent = s;
+      cites.appendChild(tag);
+    });
+    div.appendChild(cites);
+  }
+  chatLog.appendChild(div);
+  chatLog.scrollTop = chatLog.scrollHeight;
+}
+
+async function sendMessage(text) {
+  if (!text.trim()) return;
+  addMsg("user", text);
+  document.getElementById("chatInput").value = "";
+  const lang = document.getElementById("langSelect").value;
+  const result = await callApi({ action: "chat", query: text, session_id: sessionId, lang });
+  addMsg("bot", result.answer, result.sources);
+}
+
+document.getElementById("sendBtn").addEventListener("click", () => sendMessage(document.getElementById("chatInput").value));
+document.getElementById("chatInput").addEventListener("keydown", e => { if (e.key === "Enter") sendMessage(e.target.value); });
+document.querySelectorAll(".sugg").forEach(s => s.addEventListener("click", () => sendMessage(s.textContent)));
+document.getElementById("resetBtn").addEventListener("click", () => { chatLog.innerHTML = ""; sendMessage("reset"); chatLog.innerHTML=""; });
+
+document.getElementById("exportPdfBtn").addEventListener("click", () => {
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF({ unit: "pt", format: "a4" });
+  const margin = 40; let y = 50;
+  doc.setFont("Courier", "normal"); doc.setFontSize(14);
+  doc.text("Setu — Crime Intelligence Conversation Log", margin, y); y += 20;
+  doc.setFontSize(9); doc.text("Session: " + sessionId + "  |  Exported: " + new Date().toISOString(), margin, y); y += 24;
+  doc.setFontSize(10);
+  chatLog.querySelectorAll(".msg").forEach(m => {
+    const role = m.classList.contains("user") ? "INVESTIGATOR" : "ASSISTANT";
+    const lines = doc.splitTextToSize(role + ": " + m.textContent, 500);
+    if (y + lines.length * 12 > 780) { doc.addPage(); y = 50; }
+    doc.text(lines, margin, y);
+    y += lines.length * 12 + 10;
+  });
+  doc.save("crime-intel-conversation-" + sessionId + ".pdf");
+});
+
+// ---- Network ----
+let networkInstance = null;
+function renderNetwork(data) {
+  const container = document.getElementById("networkCanvas");
+  const nodes = new vis.DataSet(data.nodes.map(n => ({
+    id: n.id, label: n.label,
+    color: n.type === "accused" ? "#d9a441" : n.type === "victim" ? "#4d8fa0" : "#8b96a5",
+    size: n.type === "accused" ? 16 + (n.cases || 0) * 2 : 12,
+    font: { color: "#e7ebf0", size: 12 },
+  })));
+  const edges = new vis.DataSet(data.edges.map(e => ({ from: e.from, to: e.to, label: e.label, color: { color: "#2a3340" }, font: { color: "#6b7684", size: 9, strokeWidth: 0 } })));
+  if (networkInstance) networkInstance.destroy();
+  networkInstance = new vis.Network(container, { nodes, edges }, {
+    physics: { stabilization: true, barnesHut: { gravitationalConstant: -4000 } },
+    interaction: { hover: true },
+  });
+}
+document.getElementById("loadNetworkBtn").addEventListener("click", async () => {
+  const data = await callApi({ action: "network" });
+  renderNetwork(data);
+});
+document.getElementById("loadSingleBtn").addEventListener("click", async () => {
+  const id = document.getElementById("accusedIdInput").value.trim();
+  if (!id) return;
+  const data = await callApi({ action: "network", accused_id: id });
+  renderNetwork(data);
+});
+
+// ---- Dashboard ----
+let charts = {};
+function makeChart(id, type, labels, values, colors) {
+  if (charts[id]) charts[id].destroy();
+  charts[id] = new Chart(document.getElementById(id), {
+    type, data: { labels, datasets: [{ data: values, backgroundColor: colors || "#d9a441", borderRadius: type === "bar" ? 4 : 0, borderWidth: type === "line" ? 2 : 0, borderColor: "#4d8fa0" }] },
+    options: { plugins: { legend: { display: type === "doughnut", labels: { color: "#8b96a5", font: { size: 10 } } } },
+      scales: type === "doughnut" ? {} : { x: { ticks: { color: "#8b96a5", font: { size: 9 } }, grid: { color: "#242c37" } }, y: { ticks: { color: "#8b96a5" }, grid: { color: "#242c37" } } } }
+  });
+}
+async function loadDashboard() {
+  const d = await callApi({ action: "dashboard" });
+  document.getElementById("statCards").innerHTML = `
+    <div class="stat-card"><div class="label">Total FIRs</div><div class="value">${d.total_firs}</div><div class="sub">in current dataset</div></div>
+    <div class="stat-card"><div class="label">Top hotspot</div><div class="value">${d.top_hotspot ? d.top_hotspot[0] : "-"}</div><div class="sub">${d.top_hotspot ? d.top_hotspot[1] + " cases" : ""}</div></div>
+    <div class="stat-card"><div class="label">Repeat offenders</div><div class="value">${d.repeat_offender_count}</div><div class="sub">linked to 2+ FIRs</div></div>`;
+  const palette = ["#d9a441","#4d8fa0","#c65b4e","#5a9c6e","#8b96a5","#a06fd9","#d9a441","#4d8fa0","#c65b4e","#5a9c6e"];
+  makeChart("crimeTypeChart", "bar", Object.keys(d.crime_type_breakdown), Object.values(d.crime_type_breakdown), "#d9a441");
+  makeChart("areaChart", "doughnut", Object.keys(d.area_breakdown), Object.values(d.area_breakdown), palette);
+  makeChart("trendChart", "line", Object.keys(d.monthly_trend), Object.values(d.monthly_trend));
+  makeChart("statusChart", "bar", Object.keys(d.status_breakdown), Object.values(d.status_breakdown), "#4d8fa0");
+}
+document.getElementById("refreshDashBtn").addEventListener("click", loadDashboard);
+
+// ---- Risk ----
+document.getElementById("loadRiskBtn").addEventListener("click", async () => {
+  const net = await callApi({ action: "network" }); // repeat offenders
+  const ids = net.nodes.filter(n => n.type === "accused").sort((a,b) => b.cases - a.cases).slice(0, 10).map(n => n.id);
+  const rows = [];
+  for (const id of ids) {
+    const r = await callApi({ action: "risk_score", accused_id: id });
+    if (r) rows.push(r);
+  }
+  document.getElementById("riskTableBody").innerHTML = rows.map(r => `
+    <tr><td>${r.name}</td><td class="id-mono">${r.accused_id}</td><td>${r.linked_case_count}</td>
+    <td>${r.total_score}/100</td><td><span class="band ${r.band}">${r.band}</span></td>
+    <td style="font-size:11.5px;color:var(--muted);">${r.explanation}</td></tr>`).join("");
+});
+
+// initial load
+loadDashboard();
+addMsg("bot", "Welcome. I'm Setu, your crime intelligence assistant. Ask me about FIRs, accused, victims, or case status — try one of the suggestions below.");
+</script>
+</body>
+</html>
