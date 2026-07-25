@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-.env
-.venv/
-node_modules/
-.catalystrc
-.catalyst/
-*.log
-.DS_Store
